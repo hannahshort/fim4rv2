@@ -1,6 +1,7 @@
 \documentclass[fleqn,10pt]{wlscirep} 
 \usepackage{array,longtable,multirow}
 \usepackage{fancyhdr}
+\geometry{a4paper}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -9,9 +10,107 @@
 \cfoot{FIM4Rv2.0}
 
 \title{Federated Identity Management for Research Collaborations}
-\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix \ref{appendix:authors})}
+\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix\ref{appendix:authors})}
 \affil[1]{E-mail: contact@fim4r.org}
-\date{2018-06-15}
+\date{\today}
+%
+% \author[8,73]{C J Atherton}
+% \author[27,75]{T Barton}
+% \author[17]{J Basney}
+% \author[16,41]{D Broeder}
+% \author[10,42]{A Costa}
+% \author[23,52,71]{M van Daalen}
+% \author[15,47]{S O M Dyke}
+% \author[2,41]{W Elbers}
+% \author[5,46,71,72]{C-F Enell}
+% \author[11]{E M V Fasanelli}
+% \author[6,74]{J Fernandes}
+% \author[8,71,73]{L Florio}
+% \author[4,43,71]{P Gietz}
+% \author[20,71,72]{D L Groep}
+% \author[11,50]{M Junker}
+% \author[8,71,72,73]{C Kanellopoulos}
+% \author[25,55,71,72]{D P Kelsey}
+% \author[25,29,45]{P J Kershaw}
+% \author[10,53]{C Knapic}
+% \author[9,48]{T Kollegger}
+% \author[28,51]{S Koranda}
+% \author[3,47,71]{M Linden}
+% \author[7,44]{F Marinic}
+% \author[14,47,72]{L Matyska}
+% \author[3,47,71]{T H Nyrönen}
+% \author[12,52,71]{S Paetow}
+% \author[22,76]{L Paglione}
+% \author[11,50]{S Parlati}
+% \author[30]{C Phillips}
+% \author[1,14,47,71,73]{M Prochazka}
+% \author[24,53]{N Rees}
+% \author[6,55,71]{H Short}
+% \author[13,71]{U Stevanovic}
+% \author[18,49]{M Tartakovsky}
+% \author[26,71]{G Venekamp}
+% \author[6,55]{R Wartel}
+% \author[18,49]{C Whalen}
+% \author[19,46]{J White}
+% \author[21,54]{C Zwolf}
+%
+%
+% %%Home Organisations
+% \affil[1]{CESNET, Prague, Czech Republic}
+% \affil[2]{CLARIN ERIC, Utrecht, The Netherlands}
+% \affil[3]{CSC -- IT Center for Science, ESPOO, Finland}
+% \affil[4]{DAASI International, Tübingen, Germany}
+% \affil[5]{EISCAT Scientific Association, Kiruna, Sweden}
+% \affil[6]{European Organization for Nuclear Research (CERN), Geneva, Switzerland}
+% \affil[7]{European Space Agency (ESA/ESAC), Madrid, Spain}
+% \affil[8]{GÉANT Association, Amsterdam, The Netherlands}
+% \affil[9]{GSI Helmholtzzentrum für Schwerionenforschung, Darmstadt, Germany}
+% \affil[10]{INAF- National Institute for Astrophysics - Italy}
+% \affil[11]{INFN - National Institute for Nuclear Physics - Italy}
+% \affil[12]{Jisc, Harwell, United Kingdom}
+% \affil[13]{Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany}
+% \affil[14]{Masaryk University (MU), Institute of Computer Science (ICS), Brno, Czech Republic}
+% \affil[15]{McGill University, Montreal, Canada}
+% \affil[16]{Meertens Institute, Amsterdam, The Netherlands}
+% \affil[17]{National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign, USA}
+% \affil[18]{National Institute of Allergy and Infectious Diseases, Rockville, Maryland USA}
+% \affil[19]{NeIC, Oslo, Norway}
+% \affil[20]{Nikhef, Amsterdam, The Netherlands}
+% \affil[21]{Observatoire de Paris (Obspm), France }
+% \affil[22]{ORCID Inc, Bethesda, Maryland USA}
+% \affil[23]{Paul Scherrer Institute, 5232 Villigen PSI, Switzerland}
+% \affil[24]{SKA Organisation, Jodrell Bank, Lower Withington, Macclesfield, United Kingdom}
+% \affil[25]{STFC UK Research and Innovation, Rutherford Appleton Laboratory, Didcot, United Kingdom}
+% \affil[26]{SURFsara, Amsterdam, The Netherlands}
+% \affil[27]{University of Chicago, Chicago, Illinois, USA}
+% \affil[28]{University of Wisconsin-Milwaukee (UWM), Milwaukee, Wisconsin USA}
+% \affil[29]{NCEO (National Centre for Earth Observation), NERC, United Kingdom}
+% \affil[30]{Canarie, Ottawa, Canada}
+%
+%% %%Research Communities
+% \affil[41]{Common Language Resources and Technology Infrastructure (CLARIN)}
+% \affil[42]{Cherenkov Telescope Array (CTA)}
+% \affil[43]{Digital Research Infrastructure for the Arts and Humanities (DARIAH)}
+% \affil[44]{Earth Observation (EOP/ESA)}
+% \affil[45]{Earth System Grid Federation (ESGF) \& Climate Science}
+% \affil[46]{European Incoherent Scatter Scientific Association (EISCAT) \& EISCAT\_3D}
+% \affil[47]{ELIXIR - a distributed infrastructure for life-science information }
+% \affil[48]{Facility for Antiproton and Ion Research (FAIR)}
+% \affil[49]{Infectious Disease Research}
+% \affil[50]{Laboratory for Underground Astrophysics (LUNA) Collaboration}
+% \affil[51]{Laser Interferometer Gravitational-wave Observatory (LIGO) Scientific Collaboration}
+% \affil[52]{Photon and Neutron Facilities}
+% \affil[53]{Square Kilometre Array  (SKA)}
+% \affil[54]{Virtual Atomic and Molecular Data Center (VAMDC)}
+% \affil[55]{Worldwide Large Hadron Collider Computing Grid (WLCG)}
+%
+%% %%Projects
+% \affil[71]{AARC/AARC2}
+% \affil[72]{EOSC-hub }
+% \affil[73]{GÉANT}
+% \affil[74]{HNSciCloud}
+% \affil[75]{Internet2 }
+% \affil[76]{ORCID}
 
 \begin{abstract}
 This white-paper expresses common requirements of Research Communities seeking to leverage Identity Federation for Authentication and Authorisation. Recommendations are made to Stakeholders to guide the future evolution of Federated Identity Management in a direction that better satisfies research use cases. The authors represent research communities, Research Services, Infrastructures, Identity Federations and Interfederations, with a joint motivation to ease collaboration for distributed researchers. The content has been edited collaboratively by the Federated Identity Management for Research (FIM4R) Community, with input sought at conferences and meetings in Europe, Asia and North America. 
@@ -863,223 +962,10 @@ The authors acknowledge the contributions to this work made by all former member
 
 The authors also acknowledge the support and collaboration of many other colleagues in their respective institutes, research communities and IT Infrastructures, together with the funding received by these from many different sources. These include but are not limited to the following: (i) The Worldwide LHC Computing Grid (WLCG) project is a global collaboration of more than 170 computing centres in 43 countries, linking up national and international grid infrastructures. Funding is acknowledged from many national funding bodies and we acknowledge the support of several operational infrastructures including EGI, OSG and NDGF/NeIC. (ii) EGI acknowledges the funding and support received from the European Commission and the many National Grid Initiatives and other members. EOSC-hub receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 777536. (iii) The work leading to these results has received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 730941 (AARC2). (iv) Work on the development of ESGF’s identity management system has been supported  by The UK Natural Environment Research Council and funding from the European Union's Seventh Framework Programme for research, technological development and demonstration through projects IS-ENES (grant agreement no 228203) and IS-ENES2 (grant agreement no 312979). (v) Ludek Matyska and Michal Prochazka acknowledge funding from the RI ELIXIR CZ project funded by MEYS Czech Republic No. LM2015047. (vi) Scott Koranda acknowledges support provided by the United States National Science Foundation under Grant No. PHY-1700765. (vii) GÉANT Association on behalf of the GN4 Phase 2 project (GN4-2). The research leading to these results has received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 731122(GN4-2). (viii) ELIXIR acknowledges support from Research Infrastructure programme of Horizon 2020 grant No 676559 EXCELERATE. (ix) CORBEL life science cluster acknowledges support from Horizon 2020 research and innovation programme under grant agreement No 654248. (x) Mirjam van Daalen acknowledges that the research leading to this result  has been supported by the project CALIPSOplus under the Grant Agreement 730872 from the EU Framework Programme for Research and Innovation HORIZON 2020. (xi) EISCAT is an international association supported by research organisations in China (CRIRP), Finland (SA), Japan (NIPR), Norway (NFR), Sweden (VR), and the United Kingdom (NERC).
 
+\bibliography{sample}
+
 \appendix
-
-\section{Authors}
-\label{appendix:authors}
-\author[8,73]{C J Atherton \href{https://orcid.org/0000-0000-0000-0000}{https://orcid.org/0000-0000-0000-0000}}
-\author[27,75]{T Barton}
-\author[17]{J Basney}
-\author[16,41]{D Broeder}
-\author[10,42]{A Costa}
-\author[23,52,71]{M van Daalen}
-\author[15,47]{S O M Dyke}
-\author[2,41]{W Elbers}
-\author[5,46,71,72]{C-F Enell}
-\author[11]{E M V Fasanelli}
-\author[6,74]{J Fernandes}
-\author[8,71,73]{L Florio}
-\author[4,43,71]{P Gietz}
-\author[20,71,72]{D L Groep}
-\author[11,50]{M Junker}
-\author[8,71,72,73]{C Kanellopoulos}
-\author[25,55,71,72]{D P Kelsey}
-\author[25,29,45]{P J Kershaw}
-\author[10,53]{C Knapic}
-\author[9,48]{T Kollegger}
-\author[28,51]{S Koranda}
-\author[3,47,71]{M Linden}
-\author[7,44]{F Marinic}
-\author[14,47,72]{L Matyska}
-\author[3,47,71]{T H Nyrönen}
-\author[12,52,71]{S Paetow}
-\author[22,76]{L Paglione}
-\author[11,50]{S Parlati}
-\author[30]{C Phillips}
-\author[1,14,47,71,73]{M Prochazka}
-\author[24,53]{N Rees}
-\author[6,55,71]{H Short}
-\author[13,71]{U Stevanovic}
-\author[18,49]{M Tartakovsky}
-\author[26,71]{G Venekamp}
-\author[6,55]{R Wartel}
-\author[18,49]{C Whalen}
-\author[19,46]{J White}
-\author[21,54]{C Zwolf}
-
-\begin{center}
-\begin{longtable}{|l|l|}
-\hline
-\textbf{\#} & \textbf{Affiliation} \\\hline
-1	&	CESNET, Prague, Czech Republic	\\ \hline
-2	&	CLARIN ERIC, Utrecht, The Netherlands	\\ \hline
-3	&	CSC -- IT Center for Science, ESPOO, Finland	\\ \hline
-4	&	DAASI International, Tübingen, Germany	\\ \hline
-5	&	EISCAT Scientific Association, Kiruna, Sweden	\\ \hline
-6	&	European Organization for Nuclear Research (CERN), Geneva, Switzerland	\\ \hline
-7	&	European Space Agency (ESA/ESAC), Madrid, Spain	\\ \hline
-8	&	GÉANT Association, Amsterdam, The Netherlands	\\ \hline
-9	&	GSI Helmholtzzentrum für Schwerionenforschung, Darmstadt, Germany	\\ \hline
-10	&	INAF- National Institute for Astrophysics - Italy	\\ \hline
-11	&	INFN - National Institute for Nuclear Physics - Italy	\\ \hline
-12	&	Jisc, Harwell, United Kingdom	\\ \hline
-13	&	Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany	\\ \hline
-14	&	Masaryk University (MU), Institute of Computer Science (ICS), Brno, Czech Republic	\\ \hline
-15	&	McGill University, Montreal, Canada	\\ \hline
-16	&	Meertens Institute, Amsterdam, The Netherlands	\\ \hline
-17	&	National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign, USA	\\ \hline
-18	&	National Institute of Allergy and Infectious Diseases, Rockville, Maryland USA	\\ \hline
-19	&	NeIC, Oslo, Norway	\\ \hline
-20	&	Nikhef, Amsterdam, The Netherlands	\\ \hline
-21	&	Observatoire de Paris (Obspm), France 	\\ \hline
-22	&	ORCID Inc, Bethesda, Maryland USA	\\ \hline
-23	&	Paul Scherrer Institute, 5232 Villigen PSI, Switzerland	\\ \hline
-24	&	SKA Organisation, Jodrell Bank, Lower Withington, Macclesfield, United Kingdom	\\ \hline
-25	&	STFC UK Research and Innovation, Rutherford Appleton Laboratory, Didcot, United Kingdom	\\ \hline
-26	&	SURFsara, Amsterdam, The Netherlands	\\ \hline
-27	&	University of Chicago, Chicago, Illinois, USA	\\ \hline
-28	&	University of Wisconsin-Milwaukee (UWM), Milwaukee, Wisconsin USA	\\ \hline
-29	&	NCEO (National Centre for Earth Observation), NERC, United Kingdom	\\ \hline
-30	&	Canarie, Ottawa, Canada	\\ \hline
-\caption{Home Institutes}
-\end{longtable}
-\end{center}
-
-\begin{center}
-\begin{longtable}{|l|l|}
-\hline
-\textbf{\#} & \textbf{Affiliation} \\\hline
-41	&	Common Language Resources and Technology Infrastructure (CLARIN)	\\ \hline
-42	&	Cherenkov Telescope Array (CTA)	\\ \hline
-43	&	Digital Research Infrastructure for the Arts and Humanities (DARIAH)	\\ \hline
-44	&	Earth Observation (EOP/ESA)	\\ \hline
-45	&	Earth System Grid Federation (ESGF) \& Climate Science	\\ \hline
-46	&	European Incoherent Scatter Scientific Association (EISCAT) \& EISCAT\_3D	\\ \hline
-47	&	ELIXIR - a distributed infrastructure for life-science information 	\\ \hline
-48	&	Facility for Antiproton and Ion Research (FAIR)	\\ \hline
-49	&	Infectious Disease Research	\\ \hline
-50	&	Laboratory for Underground Astrophysics (LUNA) Collaboration	\\ \hline
-51	&	Laser Interferometer Gravitational-wave Observatory (LIGO) Scientific Collaboration	\\ \hline
-52	&	Photon and Neutron Facilities	\\ \hline
-53	&	Square Kilometre Array  (SKA)	\\ \hline
-54	&	Virtual Atomic and Molecular Data Center (VAMDC)	\\ \hline
-55	&	Worldwide Large Hadron Collider Computing Grid (WLCG)	\\ \hline
-\caption{Research Communities}
-\end{longtable}
-\end{center}
-
-\begin{center}
-\begin{longtable}{|l|l|}
-\hline
-\textbf{\#} & \textbf{Affiliation} \\\hline
-71	&	AARC/AARC2	\\ \hline
-72	&	EOSC-hub 	\\ \hline
-73	&	GÉANT	\\ \hline
-74	&	HNSciCloud	\\ \hline
-75	&	Internet2 	\\ \hline
-76	&	ORCID	\\ \hline
-\caption{e-Infrastructures and others}
-\end{longtable}
-\end{center}
-
-% \author[8,73]{C J Atherton}
-% \author[27,75]{T Barton}
-% \author[17]{J Basney}
-% \author[16,41]{D Broeder}
-% \author[10,42]{A Costa}
-% \author[23,52,71]{M van Daalen}
-% \author[15,47]{S O M Dyke}
-% \author[2,41]{W Elbers}
-% \author[5,46,71,72]{C-F Enell}
-% \author[11]{E M V Fasanelli}
-% \author[6,74]{J Fernandes}
-% \author[8,71,73]{L Florio}
-% \author[4,43,71]{P Gietz}
-% \author[20,71,72]{D L Groep}
-% \author[11,50]{M Junker}
-% \author[8,71,72,73]{C Kanellopoulos}
-% \author[25,55,71,72]{D P Kelsey}
-% \author[25,29,45]{P J Kershaw}
-% \author[10,53]{C Knapic}
-% \author[9,48]{T Kollegger}
-% \author[28,51]{S Koranda}
-% \author[3,47,71]{M Linden}
-% \author[7,44]{F Marinic}
-% \author[14,47,72]{L Matyska}
-% \author[3,47,71]{T H Nyrönen}
-% \author[12,52,71]{S Paetow}
-% \author[22,76]{L Paglione}
-% \author[11,50]{S Parlati}
-% \author[30]{C Phillips}
-% \author[1,14,47,71,73]{M Prochazka}
-% \author[24,53]{N Rees}
-% \author[6,55,71]{H Short}
-% \author[13,71]{U Stevanovic}
-% \author[18,49]{M Tartakovsky}
-% \author[26,71]{G Venekamp}
-% \author[6,55]{R Wartel}
-% \author[18,49]{C Whalen}
-% \author[19,46]{J White}
-% \author[21,54]{C Zwolf}
-
-
-% %%Home Organisations
-% \affil[1]{CESNET, Prague, Czech Republic}
-% \affil[2]{CLARIN ERIC, Utrecht, The Netherlands}
-% \affil[3]{CSC -- IT Center for Science, ESPOO, Finland}
-% \affil[4]{DAASI International, Tübingen, Germany}
-% \affil[5]{EISCAT Scientific Association, Kiruna, Sweden}
-% \affil[6]{European Organization for Nuclear Research (CERN), Geneva, Switzerland}
-% \affil[7]{European Space Agency (ESA/ESAC), Madrid, Spain}
-% \affil[8]{GÉANT Association, Amsterdam, The Netherlands}
-% \affil[9]{GSI Helmholtzzentrum für Schwerionenforschung, Darmstadt, Germany}
-% \affil[10]{INAF- National Institute for Astrophysics - Italy}
-% \affil[11]{INFN - National Institute for Nuclear Physics - Italy}
-% \affil[12]{Jisc, Harwell, United Kingdom}
-% \affil[13]{Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany}
-% \affil[14]{Masaryk University (MU), Institute of Computer Science (ICS), Brno, Czech Republic}
-% \affil[15]{McGill University, Montreal, Canada}
-% \affil[16]{Meertens Institute, Amsterdam, The Netherlands}
-% \affil[17]{National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign, USA}
-% \affil[18]{National Institute of Allergy and Infectious Diseases, Rockville, Maryland USA}
-% \affil[19]{NeIC, Oslo, Norway}
-% \affil[20]{Nikhef, Amsterdam, The Netherlands}
-% \affil[21]{Observatoire de Paris (Obspm), France }
-% \affil[22]{ORCID Inc, Bethesda, Maryland USA}
-% \affil[23]{Paul Scherrer Institute, 5232 Villigen PSI, Switzerland}
-% \affil[24]{SKA Organisation, Jodrell Bank, Lower Withington, Macclesfield, United Kingdom}
-% \affil[25]{STFC UK Research and Innovation, Rutherford Appleton Laboratory, Didcot, United Kingdom}
-% \affil[26]{SURFsara, Amsterdam, The Netherlands}
-% \affil[27]{University of Chicago, Chicago, Illinois, USA}
-% \affil[28]{University of Wisconsin-Milwaukee (UWM), Milwaukee, Wisconsin USA}
-% \affil[29]{NCEO (National Centre for Earth Observation), NERC, United Kingdom}
-% \affil[30]{Canarie, Ottawa, Canada}
-
-% %%Research Communities
-% \affil[41]{Common Language Resources and Technology Infrastructure (CLARIN)}
-% \affil[42]{Cherenkov Telescope Array (CTA)}
-% \affil[43]{Digital Research Infrastructure for the Arts and Humanities (DARIAH)}
-% \affil[44]{Earth Observation (EOP/ESA)}
-% \affil[45]{Earth System Grid Federation (ESGF) \& Climate Science}
-% \affil[46]{European Incoherent Scatter Scientific Association (EISCAT) \& EISCAT\_3D}
-% \affil[47]{ELIXIR - a distributed infrastructure for life-science information }
-% \affil[48]{Facility for Antiproton and Ion Research (FAIR)}
-% \affil[49]{Infectious Disease Research}
-% \affil[50]{Laboratory for Underground Astrophysics (LUNA) Collaboration}
-% \affil[51]{Laser Interferometer Gravitational-wave Observatory (LIGO) Scientific Collaboration}
-% \affil[52]{Photon and Neutron Facilities}
-% \affil[53]{Square Kilometre Array  (SKA)}
-% \affil[54]{Virtual Atomic and Molecular Data Center (VAMDC)}
-% \affil[55]{Worldwide Large Hadron Collider Computing Grid (WLCG)}
-
-% %%Projects
-% \affil[71]{AARC/AARC2}
-% \affil[72]{EOSC-hub }
-% \affil[73]{GÉANT}
-% \affil[74]{HNSciCloud}
-% \affil[75]{Internet2 }
-% \affil[76]{ORCID}
-
+\newpage
 \section{Descriptions of Contributing Research Communities}
 
 \subsection{Arts and Humanities}
@@ -1499,7 +1385,5 @@ In the most basic version of accounting, we may compile macro-statistics for kno
 \end{itemize}
 At the present stage VAMDC has not implemented its AAA strategy since we are waiting a large consensus of the Data Sharing community on which solution retain for delegation of authentication.
 
-
-\bibliography{sample}
 
 \end{document}
