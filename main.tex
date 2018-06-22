@@ -222,10 +222,11 @@ Table \ref{tab:table2} covers the technology usage aspects of the user communiti
 In both tables “NA” indicates that associated data are “Not Available”.
 
 \begin{center}
-\begin{longtable}{|l||*{7}{>{\bfseries}p{0.1\textwidth}|}} 
+\begin{longtable}{|p{5cm}|*{5}{p{0.1\textwidth}|}} 
 \hline
 Research Domain & Research Community & Number of Users / Logins per Year & Number of Countries & Number of Centres & Number of SPs \\
-\hline
+\hline \hline
+\endhead
 \hline
 Humanities and Social Sciences & CLARIN & NA/20000+ & 22 & 45 & 42 \\
 \hline
@@ -269,10 +270,11 @@ Infectious Disease Research&NIH/NIAID&1800/15600&15&5&10\\
 \end{center}
 
 \begin{center}
-\begin{longtable}{|*{5}{>{\bfseries}p{0.15\textwidth}|}}
+\begin{longtable}{|p{3cm}|*{4}{p{0.15\textwidth}|}}
 \hline
 Research Community&AuthN Technologies (Now/future)&AuthZ and Group Management (Now/future)&Use of IdP/SP Proxy&IdP of last resort\\
 \hline\hline
+\endhead
 DARIAH&SAML, OAuth2 / OIDC&OAuth2, LDAP Groups, RBAC PDP / NA&yes&yes\\
 \hline
 ELIXIR&Passwords and MFA, SAML, OIDC, X.509 / RCauth&Groups, bona fide, permissions to datasets, OAuth2 / NA&yes&No, use ORCID Google, LinkedIn\\
@@ -352,6 +354,7 @@ Constituent
 &Label
 &Description \\
 \hline\hline
+\endhead
 Identity Providers
 &I
 &System entities responsible for the creation, management and maintenance of a user’s identity and for authentication of a user in a federated context. They are also a source of attributes about the user and the user’s credentential. In comparison, service providers (SPs) are system entities responsible for the authorisation of a user to specific services (see below “Research Service Providers”).\\
@@ -388,10 +391,11 @@ New Solution
 \subsection{Requirements Matrix}
 
 \begin{center}
-\begin{longtable}{|>{\bfseries}p{0.15\textwidth}|>{\bfseries}p{0.15\textwidth}|>{\bfseries}p{0.3\textwidth}||*{7}{p{.1cm}|}}
+\begin{longtable}{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.3\textwidth}||*{7}{p{.1cm}|}}
 \hline
-\textbf{Category} & Requirement & Explanation & I & F & P  & R & D & S & N \\
+Category & Requirement & Explanation & I & F & P  & R & D & S & N \\
 \hline\hline 
+\endhead
 Identity lifecycle \& linking
 & Account linking                                                                                 
 & The ability, for one entity, to link credentials from multiple IdPs to one account on an SP. More generically, the ability for a researcher to link multiple identities together, whether held in parallel or succession. The ability to accurately link accounts depends strongly upon the release of an appropriately unique and persistent identifier. 
@@ -900,7 +904,7 @@ The research community has substantial need to employ strong forms of authentica
 \subsection{Mapping of Groups to Recommendations}
 
 \begin{center}
-\begin{longtable}{|l|p{0.5\textwidth}|} 
+\begin{longtable}{|p{0.5\textwidth}|p{0.5\textwidth}|} 
 \hline
 Groups & Recommendations \\ \hline \hline
 GÉANT, Internet2, NRENS &  
@@ -1179,7 +1183,8 @@ A common Authentication and Authorisation Infrastructure (AAI) that would allow 
 \hline
 \textbf{Infrastructure} &
 \textbf{Domain of activity} &
-\textbf{Website}\\ \hline
+\textbf{Website}\\ \hline \hline
+\endhead
 BBMRI&
 Biobanking \& biomolecular resources&
 www.bbmri-eric.eu\\ \hline
