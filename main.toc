@@ -1,70 +1,69 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}About FIM4R}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Vision}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Structure of the Paper}{4}{subsection.1.3}
-\contentsline {section}{\numberline {2}The Evolution of Federated Identity Management}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}The Research Community Proxy}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Impact of the FIM4R v1 White Paper}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Successes}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Outstanding Challenges}{7}{subsection.2.4}
-\contentsline {section}{\numberline {3}Research Community Characteristics and Status}{7}{section.3}
-\contentsline {section}{\numberline {4}Analysis of Common Requirements}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Requirements Collection}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Requirements Categories}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}FIM Ecosystem Constituents}{11}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Requirements Matrix}{11}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Analysis of Requirements}{17}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Distribution of Requirements Across FIM Constituents}{17}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Relative Importance of the Requirements}{18}{subsubsection.4.5.2}
-\contentsline {section}{\numberline {5}Recommendations}{18}{section.5}
-\contentsline {subsection}{\numberline {5.1}Governance and Coordination}{19}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Increase research representation in FIM governance}{19}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Sustain operation of critical FIM services}{19}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Provide avenues for ongoing coordination}{19}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Baseline of Research User Experience}{20}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Release Research \& Scholarship attributes}{20}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Provide usability essentials}{20}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Remove interoperability barriers in eduGAIN metadata processes}{20}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Admit research organisations to federation}{20}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Enable researcher mobility}{20}{subsubsection.5.2.5}
-\contentsline {subsection}{\numberline {5.3}Security Incident Response Readiness}{21}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Harmonisation of Research Community Proxy Operations and Practices}{21}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Follow the proxy model and related AARC guidelines}{21}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}Re-use shared AAI and related services}{21}{subsubsection.5.4.2}
-\contentsline {subsection}{\numberline {5.5}Sensitive Research User Experience}{21}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Mapping of Groups to Recommendations}{21}{subsection.5.6}
-\contentsline {section}{\numberline {6}Next Steps}{22}{section.6}
-\contentsline {section}{\numberline {7}Acknowledgements}{22}{section.7}
-\contentsline {section}{\numberline {A}Authors}{23}{appendix.A}
-\contentsline {section}{\numberline {B}Descriptions of Contributing Research Communities}{24}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Arts and Humanities}{24}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Climate Science}{25}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Earth Observation (EO)}{26}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}European Neutron and Photon Facilities (umbrellaID)}{27}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}Gamma-Ray Astronomy}{27}{subsection.B.5}
-\contentsline {subsubsection}{\numberline {B.5.1}Implementation of the CTA AAI}{28}{subsubsection.B.5.1}
-\contentsline {subsection}{\numberline {B.6}Gravitational Wave Astronomy}{29}{subsection.B.6}
-\contentsline {subsubsection}{\numberline {B.6.1}gw-astronomy.org}{29}{subsubsection.B.6.1}
-\contentsline {subsubsection}{\numberline {B.6.2}Laser Interferometer Gravitational Wave Observatory (LIGO)}{29}{subsubsection.B.6.2}
-\contentsline {subsubsection}{\numberline {B.6.3}Virgo Collaboration}{30}{subsubsection.B.6.3}
-\contentsline {subsubsection}{\numberline {B.6.4}Kamioka Gravitational Wave Detector (KAGRA)}{30}{subsubsection.B.6.4}
-\contentsline {subsection}{\numberline {B.7}High Energy Physics}{30}{subsection.B.7}
-\contentsline {subsubsection}{\numberline {B.7.1}HNSciCloud}{31}{subsubsection.B.7.1}
-\contentsline {subsection}{\numberline {B.8}Ionospheric and Atmospheric Science}{31}{subsection.B.8}
-\contentsline {subsubsection}{\numberline {B.8.1}Current Implementation of EISCAT AAI}{32}{subsubsection.B.8.1}
-\contentsline {subsubsection}{\numberline {B.8.2}Future requirements for EISCAT\_3D AAI}{32}{subsubsection.B.8.2}
-\contentsline {subsection}{\numberline {B.9}Infectious Disease Research}{32}{subsection.B.9}
-\contentsline {subsubsection}{\numberline {B.9.1}National Institute of Allergy and Infectious Diseases Virtual Research Organization Platform}{32}{subsubsection.B.9.1}
-\contentsline {subsection}{\numberline {B.10}Life Sciences}{34}{subsection.B.10}
-\contentsline {subsubsection}{\numberline {B.10.1}Reference Implementation AAI}{34}{subsubsection.B.10.1}
-\contentsline {subsubsection}{\numberline {B.10.2}Sensitive data access models are evolving}{34}{subsubsection.B.10.2}
-\contentsline {subsection}{\numberline {B.11}Linguistics}{35}{subsection.B.11}
-\contentsline {subsection}{\numberline {B.12}Nuclear Physics}{36}{subsection.B.12}
-\contentsline {subsubsection}{\numberline {B.12.1}FAIR}{36}{subsubsection.B.12.1}
-\contentsline {subsubsection}{\numberline {B.12.2}Italian National Institute for Nuclear Physics (INFN)}{37}{subsubsection.B.12.2}
-\contentsline {subsection}{\numberline {B.13}Radio Astronomy}{38}{subsection.B.13}
-\contentsline {subsubsection}{\numberline {B.13.1}Murchison Widefield Array (MWA)}{38}{subsubsection.B.13.1}
-\contentsline {subsubsection}{\numberline {B.13.2}Square Kilometre Array (SKA)}{38}{subsubsection.B.13.2}
-\contentsline {subsection}{\numberline {B.14}Virtual Atomic and Molecular Data Centre}{39}{subsection.B.14}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}About FIM4R}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Vision}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Structure of the Paper}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}The Evolution of Federated Identity Management}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}The Research Community Proxy}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Impact of the FIM4R v1 White Paper}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Successes}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Outstanding Challenges}{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Research Community Characteristics and Status}{6}{section.3}
+\contentsline {section}{\numberline {4}Analysis of Common Requirements}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Requirements Collection}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Requirements Categories}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}FIM Ecosystem Constituents}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Requirements Matrix}{10}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Analysis of Requirements}{15}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Distribution of Requirements Across FIM Constituents}{15}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Relative Importance of the Requirements}{15}{subsubsection.4.5.2}
+\contentsline {section}{\numberline {5}Recommendations}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}Governance and Coordination}{17}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Increase research representation in FIM governance}{17}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Sustain operation of critical FIM services}{17}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Provide avenues for ongoing coordination}{17}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Baseline of Research User Experience}{17}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Release Research \& Scholarship attributes}{17}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Provide usability essentials}{17}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Remove interoperability barriers in eduGAIN metadata processes}{18}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Admit research organisations to federation}{18}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Enable researcher mobility}{18}{subsubsection.5.2.5}
+\contentsline {subsection}{\numberline {5.3}Security Incident Response Readiness}{18}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Harmonisation of Research Community Proxy Operations and Practices}{18}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Follow the proxy model and related AARC guidelines}{18}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Re-use shared AAI and related services}{18}{subsubsection.5.4.2}
+\contentsline {subsection}{\numberline {5.5}Sensitive Research User Experience}{19}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Mapping of Groups to Recommendations}{19}{subsection.5.6}
+\contentsline {section}{\numberline {6}Next Steps}{19}{section.6}
+\contentsline {section}{\numberline {7}Acknowledgements}{20}{section.7}
+\contentsline {section}{\numberline {A}Descriptions of Contributing Research Communities}{21}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Arts and Humanities}{21}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Climate Science}{21}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Earth Observation (EO)}{22}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}European Neutron and Photon Facilities (umbrellaID)}{23}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Gamma-Ray Astronomy}{23}{subsection.A.5}
+\contentsline {subsubsection}{\numberline {A.5.1}Implementation of the CTA AAI}{24}{subsubsection.A.5.1}
+\contentsline {subsection}{\numberline {A.6}Gravitational Wave Astronomy}{25}{subsection.A.6}
+\contentsline {subsubsection}{\numberline {A.6.1}gw-astronomy.org}{25}{subsubsection.A.6.1}
+\contentsline {subsubsection}{\numberline {A.6.2}Laser Interferometer Gravitational Wave Observatory (LIGO)}{25}{subsubsection.A.6.2}
+\contentsline {subsubsection}{\numberline {A.6.3}Virgo Collaboration}{26}{subsubsection.A.6.3}
+\contentsline {subsubsection}{\numberline {A.6.4}Kamioka Gravitational Wave Detector (KAGRA)}{26}{subsubsection.A.6.4}
+\contentsline {subsection}{\numberline {A.7}High Energy Physics}{26}{subsection.A.7}
+\contentsline {subsubsection}{\numberline {A.7.1}HNSciCloud}{26}{subsubsection.A.7.1}
+\contentsline {subsection}{\numberline {A.8}Ionospheric and Atmospheric Science}{27}{subsection.A.8}
+\contentsline {subsubsection}{\numberline {A.8.1}Current Implementation of EISCAT AAI}{27}{subsubsection.A.8.1}
+\contentsline {subsubsection}{\numberline {A.8.2}Future requirements for EISCAT\_3D AAI}{28}{subsubsection.A.8.2}
+\contentsline {subsection}{\numberline {A.9}Infectious Disease Research}{28}{subsection.A.9}
+\contentsline {subsubsection}{\numberline {A.9.1}National Institute of Allergy and Infectious Diseases Virtual Research Organization Platform}{28}{subsubsection.A.9.1}
+\contentsline {subsection}{\numberline {A.10}Life Sciences}{29}{subsection.A.10}
+\contentsline {subsubsection}{\numberline {A.10.1}Reference Implementation AAI}{30}{subsubsection.A.10.1}
+\contentsline {subsubsection}{\numberline {A.10.2}Sensitive data access models are evolving}{30}{subsubsection.A.10.2}
+\contentsline {subsection}{\numberline {A.11}Linguistics}{31}{subsection.A.11}
+\contentsline {subsection}{\numberline {A.12}Nuclear Physics}{32}{subsection.A.12}
+\contentsline {subsubsection}{\numberline {A.12.1}FAIR}{32}{subsubsection.A.12.1}
+\contentsline {subsubsection}{\numberline {A.12.2}Italian National Institute for Nuclear Physics (INFN)}{33}{subsubsection.A.12.2}
+\contentsline {subsection}{\numberline {A.13}Radio Astronomy}{33}{subsection.A.13}
+\contentsline {subsubsection}{\numberline {A.13.1}Murchison Widefield Array (MWA)}{33}{subsubsection.A.13.1}
+\contentsline {subsubsection}{\numberline {A.13.2}Square Kilometre Array (SKA)}{33}{subsubsection.A.13.2}
+\contentsline {subsection}{\numberline {A.14}Virtual Atomic and Molecular Data Centre}{34}{subsection.A.14}
 \contentsfinish 
