@@ -35,33 +35,34 @@
 \BOOKMARK [2][-]{subsection.5.6}{Mapping of Groups to Recommendations}{section.5}% 35
 \BOOKMARK [1][-]{section.6}{Next Steps}{}% 36
 \BOOKMARK [1][-]{section.7}{Acknowledgements}{}% 37
-\BOOKMARK [1][-]{appendix.A}{Descriptions of Contributing Research Communities}{}% 38
-\BOOKMARK [2][-]{subsection.A.1}{Arts and Humanities}{appendix.A}% 39
-\BOOKMARK [2][-]{subsection.A.2}{Climate Science}{appendix.A}% 40
-\BOOKMARK [2][-]{subsection.A.3}{Earth Observation \(EO\)}{appendix.A}% 41
-\BOOKMARK [2][-]{subsection.A.4}{European Neutron and Photon Facilities \(umbrellaID\)}{appendix.A}% 42
-\BOOKMARK [2][-]{subsection.A.5}{Gamma-Ray Astronomy}{appendix.A}% 43
-\BOOKMARK [3][-]{subsubsection.A.5.1}{Implementation of the CTA AAI}{subsection.A.5}% 44
-\BOOKMARK [2][-]{subsection.A.6}{Gravitational Wave Astronomy}{appendix.A}% 45
-\BOOKMARK [3][-]{subsubsection.A.6.1}{gw-astronomy.org}{subsection.A.6}% 46
-\BOOKMARK [3][-]{subsubsection.A.6.2}{Laser Interferometer Gravitational Wave Observatory \(LIGO\)}{subsection.A.6}% 47
-\BOOKMARK [3][-]{subsubsection.A.6.3}{Virgo Collaboration}{subsection.A.6}% 48
-\BOOKMARK [3][-]{subsubsection.A.6.4}{Kamioka Gravitational Wave Detector \(KAGRA\)}{subsection.A.6}% 49
-\BOOKMARK [2][-]{subsection.A.7}{High Energy Physics}{appendix.A}% 50
-\BOOKMARK [3][-]{subsubsection.A.7.1}{HNSciCloud}{subsection.A.7}% 51
-\BOOKMARK [2][-]{subsection.A.8}{Ionospheric and Atmospheric Science}{appendix.A}% 52
-\BOOKMARK [3][-]{subsubsection.A.8.1}{Current Implementation of EISCAT AAI}{subsection.A.8}% 53
-\BOOKMARK [3][-]{subsubsection.A.8.2}{Future requirements for EISCAT\1373D AAI}{subsection.A.8}% 54
-\BOOKMARK [2][-]{subsection.A.9}{Infectious Disease Research}{appendix.A}% 55
-\BOOKMARK [3][-]{subsubsection.A.9.1}{National Institute of Allergy and Infectious Diseases Virtual Research Organization Platform}{subsection.A.9}% 56
-\BOOKMARK [2][-]{subsection.A.10}{Life Sciences}{appendix.A}% 57
-\BOOKMARK [3][-]{subsubsection.A.10.1}{Reference Implementation AAI}{subsection.A.10}% 58
-\BOOKMARK [3][-]{subsubsection.A.10.2}{Sensitive data access models are evolving}{subsection.A.10}% 59
-\BOOKMARK [2][-]{subsection.A.11}{Linguistics}{appendix.A}% 60
-\BOOKMARK [2][-]{subsection.A.12}{Nuclear Physics}{appendix.A}% 61
-\BOOKMARK [3][-]{subsubsection.A.12.1}{FAIR}{subsection.A.12}% 62
-\BOOKMARK [3][-]{subsubsection.A.12.2}{Italian National Institute for Nuclear Physics \(INFN\)}{subsection.A.12}% 63
-\BOOKMARK [2][-]{subsection.A.13}{Radio Astronomy}{appendix.A}% 64
-\BOOKMARK [3][-]{subsubsection.A.13.1}{Murchison Widefield Array \(MWA\)}{subsection.A.13}% 65
-\BOOKMARK [3][-]{subsubsection.A.13.2}{Square Kilometre Array \(SKA\)}{subsection.A.13}% 66
-\BOOKMARK [2][-]{subsection.A.14}{Virtual Atomic and Molecular Data Centre}{appendix.A}% 67
+\BOOKMARK [1][-]{appendix.A}{Authors}{}% 38
+\BOOKMARK [1][-]{appendix.B}{Descriptions of Contributing Research Communities}{}% 39
+\BOOKMARK [2][-]{subsection.B.1}{Arts and Humanities}{appendix.B}% 40
+\BOOKMARK [2][-]{subsection.B.2}{Climate Science}{appendix.B}% 41
+\BOOKMARK [2][-]{subsection.B.3}{Earth Observation \(EO\)}{appendix.B}% 42
+\BOOKMARK [2][-]{subsection.B.4}{European Neutron and Photon Facilities \(umbrellaID\)}{appendix.B}% 43
+\BOOKMARK [2][-]{subsection.B.5}{Gamma-Ray Astronomy}{appendix.B}% 44
+\BOOKMARK [3][-]{subsubsection.B.5.1}{Implementation of the CTA AAI}{subsection.B.5}% 45
+\BOOKMARK [2][-]{subsection.B.6}{Gravitational Wave Astronomy}{appendix.B}% 46
+\BOOKMARK [3][-]{subsubsection.B.6.1}{gw-astronomy.org}{subsection.B.6}% 47
+\BOOKMARK [3][-]{subsubsection.B.6.2}{Laser Interferometer Gravitational Wave Observatory \(LIGO\)}{subsection.B.6}% 48
+\BOOKMARK [3][-]{subsubsection.B.6.3}{Virgo Collaboration}{subsection.B.6}% 49
+\BOOKMARK [3][-]{subsubsection.B.6.4}{Kamioka Gravitational Wave Detector \(KAGRA\)}{subsection.B.6}% 50
+\BOOKMARK [2][-]{subsection.B.7}{High Energy Physics}{appendix.B}% 51
+\BOOKMARK [3][-]{subsubsection.B.7.1}{HNSciCloud}{subsection.B.7}% 52
+\BOOKMARK [2][-]{subsection.B.8}{Ionospheric and Atmospheric Science}{appendix.B}% 53
+\BOOKMARK [3][-]{subsubsection.B.8.1}{Current Implementation of EISCAT AAI}{subsection.B.8}% 54
+\BOOKMARK [3][-]{subsubsection.B.8.2}{Future requirements for EISCAT\1373D AAI}{subsection.B.8}% 55
+\BOOKMARK [2][-]{subsection.B.9}{Infectious Disease Research}{appendix.B}% 56
+\BOOKMARK [3][-]{subsubsection.B.9.1}{National Institute of Allergy and Infectious Diseases Virtual Research Organization Platform}{subsection.B.9}% 57
+\BOOKMARK [2][-]{subsection.B.10}{Life Sciences}{appendix.B}% 58
+\BOOKMARK [3][-]{subsubsection.B.10.1}{Reference Implementation AAI}{subsection.B.10}% 59
+\BOOKMARK [3][-]{subsubsection.B.10.2}{Sensitive data access models are evolving}{subsection.B.10}% 60
+\BOOKMARK [2][-]{subsection.B.11}{Linguistics}{appendix.B}% 61
+\BOOKMARK [2][-]{subsection.B.12}{Nuclear Physics}{appendix.B}% 62
+\BOOKMARK [3][-]{subsubsection.B.12.1}{FAIR}{subsection.B.12}% 63
+\BOOKMARK [3][-]{subsubsection.B.12.2}{Italian National Institute for Nuclear Physics \(INFN\)}{subsection.B.12}% 64
+\BOOKMARK [2][-]{subsection.B.13}{Radio Astronomy}{appendix.B}% 65
+\BOOKMARK [3][-]{subsubsection.B.13.1}{Murchison Widefield Array \(MWA\)}{subsection.B.13}% 66
+\BOOKMARK [3][-]{subsubsection.B.13.2}{Square Kilometre Array \(SKA\)}{subsection.B.13}% 67
+\BOOKMARK [2][-]{subsection.B.14}{Virtual Atomic and Molecular Data Centre}{appendix.B}% 68
