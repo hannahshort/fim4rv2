@@ -3,11 +3,16 @@
 \usepackage{fancyhdr}
 \geometry{a4paper}
 
+\usepackage[tableposition=below]{caption}
+\captionsetup[longtable]{skip=1em}
+
 \pagestyle{fancy}
 \fancyhf{}
 \lfoot{© 2018 by the Authors}
 \rfoot{Page \thepage}
-\cfoot{FIM4Rv2.0}
+\cfoot{FIM4R Version 2.0}
+
+\bibliographystyle{abbrv}
 
 \title{Federated Identity Management for Research Collaborations}
 %\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix\ref{appendix:authors})}
@@ -124,15 +129,17 @@ This white-paper expresses common requirements of Research Communities seeking t
 
 \flushbottom
 
+
 \maketitle
 
 \thispagestyle{empty}
 
-\noindent {\textbf{E-mail: contact@fim4r.org} \\  \\ For the ORCID{\textsuperscript{\textregistered}} identifiers and author affiliations of the ``Federated Identity Management for Research" collaboration to their various Research Communities and e-Infrastructures, see Appendix \ref{Authors}.
-\newline
-\newline
 
-\noindent {\textbf{Document details} - Version: 2.0.  Date: 25 June 2018 \\ doi: 10.5281/zenodo.1296032 }
+
+\noindent \\ \\ \\ \\ {\textbf{E-mail: contact@fim4r.org} \\  \\ For the ORCID{\textsuperscript{\textregistered}} identifiers and author affiliations of the ``Federated Identity Management for Research" collaboration to their various Research Communities and e-Infrastructures, see Appendix \ref{Authors}.
+\newline
+\newline
+\noindent {\textbf{Document details} - Version: 2.0.  Date: 27 June 2018 \\ doi: 10.5281/zenodo.1296032 }
 \newline
 
 \vfill
@@ -362,6 +369,7 @@ The FIM4R community identified specific constituencies within the FIM ecosystem 
 
 \begin{center}
 \begin{longtable}{|p{3cm}|p{1cm}|p{10cm}|} 
+%\begin{longtable}{|p{2.0cm}|p{1cm}|p{11cm}|} 
 \hline
 Constituent
 &Label
@@ -409,6 +417,9 @@ New Solution
 Category & Requirement & Explanation & I & F & P  & R & D & S & N \\
 \hline\hline 
 \endhead
+\hline
+\endfoot
+\endlastfoot
 Identity lifecycle \& linking
 & Account linking                                                                                 
 & The ability, for one entity, to link credentials from multiple IdPs to one account on an SP. More generically, the ability for a researcher to link multiple identities together, whether held in parallel or succession. The ability to accurately link accounts depends strongly upon the release of an appropriately unique and persistent identifier. 
@@ -430,12 +441,12 @@ Identity lifecycle \& linking
 &
 & 
 &  \\
-\hline 
+\hline
 Discovery \& usability
 & Smart discovery 
-& IdP discovery should be "smart enough"" to quickly and easily take a user to their appropriate home IdP. For example show the user a short list tailored to them by home country, institute, e-Infrastructure, research community, project or other hints.
+& IdP discovery should be ``smart enough" to quickly and easily take a user to their appropriate home IdP. For example show the user a short list tailored to them by home country, institute, e-Infrastructure, research community, project or other hints.
 & X & X & X & X & X & X & X \\
-\cline{2-10} 
+\cline{2-10}
 & Logo in metadata at an agreed standard size 
 & Discovery services should display organisation logos to aid the user in choosing the IdP. IdPs or research community proxies should provide a logo at an agreed standard size. 
 & X 
@@ -499,7 +510,7 @@ AuthZ
 &   \\
 \cline{2-10}
 & Bona-Fide users for registered access  
-& For controlled access ("registered"" access) to a dataset or other resources, it must be possible to grant this only to those users who have been proven to have bona fide rights to access. 
+& For controlled access (``registered" access) to a dataset or other resources, it must be possible to grant this only to those users who have been proven to have bona fide rights to access. 
 & X 
 & X 
 & X 
@@ -519,7 +530,7 @@ AuthZ
 &   \\
 \cline{2-10}
 & Active role selection  
-& Individual users must be able to select which attributes, groups or roles are "active"" for a particular connection request and AuthZ decision. 
+& Individual users must be able to select which attributes, groups or roles are ``active" for a particular connection request and AuthZ decision. 
 &
 &  
 & X 
@@ -684,11 +695,12 @@ Interoperability
 & X \\
 \cline{2-10}
 & Federation entity attributes designed to enhance user experience should be populated 
-& Eg, the entity attributes defined in the SAML "MDUI Information"" specification and errorURL should be populated at least. 
+& Eg, the entity attributes defined in the SAML ``MDUI Information" specification and errorURL should be populated at least. 
 & X 
 & X 
 & X
 & 
+&
 &
 &  \\
 \hline 
@@ -805,15 +817,16 @@ Sustaining critical infrastructure
 & X  \\
 \cline{2-10} 
 & Sustainable operation of specified critical services
-& When a "component"" service  ,i.e. one that is integrated with others to produce a valuable result, e.g. CILogon, becomes established as a critical element of federated e-Infrastructure, research communities look to Federations to ensure sustainable operations." 
+& When a ``component" service  ,i.e. one that is integrated with others to produce a valuable result, e.g. CILogon, becomes established as a critical element of federated e-Infrastructure, research communities look to Federations to ensure sustainable operations." 
 &   
 & X 
 &   
 &   
 &   
 &   
-&  \\                                               
-\hline                                           
+&  \\                                                                                        
+\hline
+
 \caption{FIM4R Requirements Matrix}
 \label{tab:matrix}
 \end{longtable}
@@ -974,12 +987,15 @@ Sensitive Research User Experience \\ \hline
 \section{Next Steps}
 We plan to publish a version 2.1 of this paper, which will address any comments, additions and amendments communicated to the editing board by new communities that have not yet taken part in this FIM4R activity. To contact the editorial board, please use the contact details that can be found at fim4r.org. Although this version 2 already encompasses more communities than version 1, we feel that the group is still far from complete. We herewith call all research infrastructures that do see or at least begin to see the necessity of FIM for opening their user base but still want to have control on access to resources to add their own new requirements or to emphasise the requirements listed in this version. Although domain specific research e-Infrastructures are the main focus of this activity, other groups working on cross-domain infrastructures and technologies (The Research Data Alliance, RDA, for example) are also herewith encouraged to provide input to the next version of this text. 
 
+\bibliography{fim4r}
+
 \section{Acknowledgements}
 The authors acknowledge the contributions to this work made by all former members of the FIM4R collaboration. In particular, we thank Bob Jones from CERN, for his vision and leadership during the FIM4R v1 era, and for his contributions to Version 2. We also wish to thank colleagues, too many to name individually, in REFEDS, in GN4, among the national federations, the providers of identity management software, and the operators of many diverse Trust and Identity services for their endeavours to meet our FIM4R requirements. 
 
 The authors also acknowledge the support and collaboration of many other colleagues in their respective institutes, research communities and IT Infrastructures, together with the funding received by these from many different sources. These include but are not limited to the following: (i) The Worldwide LHC Computing Grid (WLCG) project is a global collaboration of more than 170 computing centres in 43 countries, linking up national and international grid infrastructures. Funding is acknowledged from many national funding bodies and we acknowledge the support of several operational infrastructures including EGI, OSG and NDGF/NeIC. (ii) EGI acknowledges the funding and support received from the European Commission and the many National Grid Initiatives and other members. EOSC-hub receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 777536. (iii) The work leading to these results has received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 730941 (AARC2). (iv) Work on the development of ESGF’s identity management system has been supported  by The UK Natural Environment Research Council and funding from the European Union's Seventh Framework Programme for research, technological development and demonstration through projects IS-ENES (grant agreement no 228203) and IS-ENES2 (grant agreement no 312979). (v) Ludek Matyska and Michal Prochazka acknowledge funding from the RI ELIXIR CZ project funded by MEYS Czech Republic No. LM2015047. (vi) Scott Koranda acknowledges support provided by the United States National Science Foundation under Grant No. PHY-1700765. (vii) GÉANT Association on behalf of the GN4 Phase 2 project (GN4-2). The research leading to these results has received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 731122(GN4-2). (viii) ELIXIR acknowledges support from Research Infrastructure programme of Horizon 2020 grant No 676559 EXCELERATE. (ix) CORBEL life science cluster acknowledges support from Horizon 2020 research and innovation programme under grant agreement No 654248. (x) Mirjam van Daalen acknowledges that the research leading to this result  has been supported by the project CALIPSOplus under the Grant Agreement 730872 from the EU Framework Programme for Research and Innovation HORIZON 2020. (xi) EISCAT is an international association supported by research organisations in China (CRIRP), Finland (SA), Japan (NIPR), Norway (NFR), Sweden (VR), and the United Kingdom (NERC).
 
-\bibliography{sample}
+
+
 
 \appendix
 \newpage

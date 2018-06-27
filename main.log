@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.30)  25 JUN 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.30)  27 JUN 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -832,33 +832,27 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen161
 )
-(./fim4rv2-authors.tex) (./main.aux
-
-LaTeX Warning: Label `tab:matrix' multiply defined.
-
-
-LaTeX Warning: Label `tab:matrix' multiply defined.
-
-)
+(./fim4rv2-authors.tex) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 128.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -931,7 +925,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 128.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -941,9 +935,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -951,8 +945,8 @@ LaTeX Info: Redefining \nameref on input line 123.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 123.
-LaTeX Info: Redefining \microtypecontext on input line 123.
+(lastpage)             ! on input line 128.
+LaTeX Info: Redefining \microtypecontext on input line 128.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -966,7 +960,7 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 128.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 134.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -977,11 +971,11 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 128.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
-8.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -990,30 +984,30 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
-8.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
-8.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
-8.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1022,52 +1016,62 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 128.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 131.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 134.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 139.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
-LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 131.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 139.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.47603> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <4.44003> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1079,27 +1083,27 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
-Overfull \hbox (0.33275pt too wide) detected at line 59
+Overfull \hbox (0.33275pt too wide) detected at line 60
 \OT1/phv/m/n/9 B.10 
  []
 
 
-Overfull \hbox (0.33275pt too wide) detected at line 62
+Overfull \hbox (0.33275pt too wide) detected at line 63
 \OT1/phv/m/n/9 B.11 
  []
 
 
-Overfull \hbox (0.33275pt too wide) detected at line 63
+Overfull \hbox (0.33275pt too wide) detected at line 64
 \OT1/phv/m/n/9 B.12 
  []
 
 
-Overfull \hbox (0.33275pt too wide) detected at line 66
+Overfull \hbox (0.33275pt too wide) detected at line 67
 \OT1/phv/m/n/9 B.13 
  []
 
-
-Overfull \hbox (0.33275pt too wide) detected at line 69
+[2]
+Overfull \hbox (0.33275pt too wide) detected at line 70
 \OT1/phv/m/n/9 B.14 
  []
 
@@ -1107,406 +1111,326 @@ Overfull \hbox (0.33275pt too wide) detected at line 69
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] [3]
-
-LaTeX Warning: Citation `FIM4Rv1:2012' on page 4 undefined on input line 146.
-
+ [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-
-LaTeX Warning: Citation `refeds' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `GN4' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `aarc' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `fim4rweb' on page 4 undefined on input line 153.
-
-
-LaTeX Warning: Citation `FIM4Rv1:2012' on page 4 undefined on input line 159.
-
-[4]
-
-LaTeX Warning: Citation `orcid' on page 5 undefined on input line 170.
-
-
-LaTeX Warning: Citation `oidc' on page 5 undefined on input line 172.
-
-
-LaTeX Warning: Citation `moonshot' on page 5 undefined on input line 172.
-
-
-LaTeX Warning: Citation `oidcfed' on page 5 undefined on input line 172.
-
-
-LaTeX Warning: Citation `GDPR:2016' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `eugdpr' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `assessdp' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `attributerelease' on page 5 undefined on input line 17
-4.
-
-
-LaTeX Warning: Citation `baseline' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `dpcoco' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `sirtfi' on page 5 undefined on input line 174.
-
-[5]
-
-LaTeX Warning: Citation `aarcbpa' on page 6 undefined on input line 190.
-
-
-LaTeX Warning: Citation `aarcguidelines' on page 6 undefined on input line 192.
-
-
-[6]
-
-LaTeX Warning: Citation `dpcoco' on page 7 undefined on input line 222.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+ [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\OT1/ptm/m/n/10 (+20) Research
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\OT1/ptm/m/n/10 (+20) Number
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 240--240
+Underfull \hbox (badness 3049) in paragraph at lines 247--247
 \OT1/ptm/m/n/10 (+20) of Users /
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 240--240
+Underfull \hbox (badness 3039) in paragraph at lines 247--247
 \OT1/ptm/m/n/10 (+20) Lo-gins per
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 240--240
+Underfull \hbox (badness 1824) in paragraph at lines 247--247
 []|\OT1/ptm/m/n/10 (+20) Number of
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 240--240
+Underfull \hbox (badness 1824) in paragraph at lines 247--247
 []|\OT1/ptm/m/n/10 (+20) Number of
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 240--241
+Underfull \hbox (badness 1824) in paragraph at lines 247--248
 []|\OT1/ptm/m/n/10 (+20) Number of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\OT1/ptm/m/n/10 (+20) gw-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 282
+Underfull \vbox (badness 10000) detected at line 289
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \OT1/ptm/m/n/10 (+20) Man-age-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\OT1/ptm/m/n/10 (+20) Use of IdP/SP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 []|\OT1/ptm/m/n/10 (+20) OAuth2, LDAP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 \OT1/ptm/m/n/10 (+20) Groups, RBAC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 []|\OT1/ptm/m/n/10 (+20) Passwords and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 \OT1/ptm/m/n/10 (+20) MFA, SAML,
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 293--293
+Underfull \hbox (badness 7362) in paragraph at lines 300--300
 \OT1/ptm/m/n/10 (+20) OIDC, X.509 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 \OT1/ptm/m/n/10 (+20) per-mis-sions to
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 295--295
+Underfull \hbox (badness 3547) in paragraph at lines 302--302
 []|\OT1/ptm/m/n/10 (+20) X.509 / SAML,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 \OT1/ptm/m/n/10 (+20) CA. So-cial ID
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 297--297
+Underfull \hbox (badness 4013) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/10 (+20) SAML / Moon-
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 297--297
+Underfull \hbox (badness 6708) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/10 (+20) LDAP, AD (fa-
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 297--297
+Underfull \hbox (badness 3428) in paragraph at lines 304--304
 \OT1/ptm/m/n/10 (+20) cil-ity spe-cific) /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []|\OT1/ptm/m/n/10 (+20) X.509, SAML,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 \OT1/ptm/m/n/10 (+20) OpenID 2.0 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []|\OT1/ptm/m/n/10 (+20) RBAC, with
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 299--299
+Underfull \hbox (badness 1342) in paragraph at lines 306--306
 \OT1/ptm/m/n/10 (+20) for at-tribute and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 \OT1/ptm/m/n/10 (+20) au-thz de-ci-sion
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 301--301
+Underfull \hbox (badness 1137) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10 (+20) SAML / SAML,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\OT1/ptm/m/n/10 (+20) Groups, T&Cs
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 303--303
+Underfull \hbox (badness 1137) in paragraph at lines 310--310
 []|\OT1/ptm/m/n/10 (+20) SAML / SAML,
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 305--305
+Underfull \hbox (badness 1137) in paragraph at lines 312--312
 []|\OT1/ptm/m/n/10 (+20) SAML / SAML,
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 307--307
+Underfull \hbox (badness 1137) in paragraph at lines 314--314
 []|\OT1/ptm/m/n/10 (+20) SAML / SAML,
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 309--309
+Underfull \hbox (badness 1137) in paragraph at lines 316--316
 []|\OT1/ptm/m/n/10 (+20) SAML / SAML,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
 []|\OT1/ptm/m/n/10 (+20) LDAP,
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 317--317
+Underfull \hbox (badness 4531) in paragraph at lines 324--324
 []|\OT1/ptm/m/n/10 (+20) SAML, OAuth2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) So-cial ac-counts,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) X.509, OR-CID,
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 317--317
+Underfull \hbox (badness 4792) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) ba-sic auth (self
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []|\OT1/ptm/m/n/10 (+20) Grouper, GMS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) Re-la-tionale Db,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) LDAP, Proxy
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 317--317
+Underfull \hbox (badness 6396) in paragraph at lines 324--324
 \OT1/ptm/m/n/10 (+20) cer-tifi-cates (Cre-
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 317--318
+Underfull \hbox (badness 8132) in paragraph at lines 324--325
 []|\OT1/ptm/m/n/10 (+20) Yes (So-cial ac-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 319--319
+Underfull \hbox (badness 1127) in paragraph at lines 326--326
 []|\OT1/ptm/m/n/10 (+20) Virtual Atomic and
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 319--319
+Underfull \hbox (badness 1259) in paragraph at lines 326--326
 \OT1/ptm/m/n/10 (+20) / OAuth2 (us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []|\OT1/ptm/m/n/10 (+20) EISCAT / EIS-
  []
 
 
-Underfull \hbox (badness 5417) in paragraph at lines 321--321
+Underfull \hbox (badness 5417) in paragraph at lines 328--328
 []|\OT1/ptm/m/n/10 (+20) Planned. EGI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \OT1/ptm/m/n/10 (+20) Checkin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \OT1/ptm/m/n/10 (+20) B2ACCESS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 []|\OT1/ptm/m/n/10 (+20) Yes, cus-tom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 \OT1/ptm/m/n/10 (+20) providers for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 \OT1/ptm/m/n/10 (+20) users out-side
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 \OT1/ptm/m/n/10 (+20) Eu-rope (China,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 []|\OT1/ptm/m/n/10 (+20) SAML2, Oauth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \OT1/ptm/m/n/10 (+20) (us-ing Cir-rus
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 []|\OT1/ptm/m/n/10 (+20) Federations and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 []|\OT1/ptm/m/n/10 (+20) Research Ser-vice
  []
 
 [10]
-Overfull \hbox (2.60329pt too wide) in paragraph at lines 409--409
+Overfull \hbox (2.60329pt too wide) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10 (-20) F| 
  []
 
 
-Overfull \hbox (2.60329pt too wide) in paragraph at lines 409--409
+Overfull \hbox (2.60329pt too wide) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10 (-20) P| 
  []
 
 
-Overfull \hbox (3.69109pt too wide) in paragraph at lines 409--409
+Overfull \hbox (3.69109pt too wide) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10 (-20) R| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 409--409
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10 (-20) D| 
  []
 
 
-Overfull \hbox (2.60329pt too wide) in paragraph at lines 409--409
+Overfull \hbox (2.60329pt too wide) in paragraph at lines 417--417
 []|\OT1/ptm/m/n/10 (-20) S| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 409--410
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 417--418
 []|\OT1/ptm/m/n/10 (-20) N| 
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 412--413
+Underfull \hbox (badness 1112) in paragraph at lines 423--424
 []|\OT1/ptm/m/n/10 (+20) Identity life-cy-cle
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 417--418
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 419--420
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 426--427
-[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1515,42 +1439,7 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 428--429
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 434--435
-[]|\OT1/ptm/m/n/10 (+20) Discovery & us-
- []
-
-
-Underfull \hbox (badness 2503) in paragraph at lines 436--437
-[]|\OT1/ptm/m/n/10 (+20) IdP dis-cov-ery should be "smart
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--437
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 430--431
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1560,38 +1449,68 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 437--438
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 441--442
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 439--440
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 442--443
+Underfull \hbox (badness 1371) in paragraph at lines 445--446
+[]|\OT1/ptm/m/n/10 (+20) Discovery & us-
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 447--448
+[]|\OT1/ptm/m/n/10 (+20) IdP dis-cov-ery should be ``smart
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 443--444
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 448--449
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 452--453
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 453--454
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
 Overfull \hbox (4.23013pt too wide) in paragraph at lines 454--455
 []|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 455--456
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 458--459
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 462--463
-\OT1/ptm/m/n/10 (+20) based on iden-tity cre-den-tials, at-
  []
 
 
@@ -1605,13 +1524,13 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 466--467
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 467--468
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 469--470
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 475--476
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 1215) in paragraph at lines 473--474
+\OT1/ptm/m/n/10 (+20) based on iden-tity cre-den-tials, at-
  []
 
 
@@ -1625,37 +1544,7 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 477--478
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 481--482
-[]|\OT1/ptm/m/n/10 (+20) Service Provider
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-\OT1/ptm/m/n/10 (+20) quota man-age-
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 481--482
-\OT1/ptm/m/n/10 (+20) al-lo-ca-tion + ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-\OT1/ptm/m/n/10 (+20) count-ing, e.g.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-\OT1/ptm/m/n/10 (+20) com-puter re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-\OT1/ptm/m/n/10 (+20) sources, ac-cess
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 485--486
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 478--479
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1670,18 +1559,38 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 487--488
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 489--490
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 488--489
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 493--494
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 2980) in paragraph at lines 492--493
+[]|\OT1/ptm/m/n/10 (+20) Service Provider
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 495--496
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\OT1/ptm/m/n/10 (+20) quota man-age-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 492--493
+\OT1/ptm/m/n/10 (+20) al-lo-ca-tion + ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\OT1/ptm/m/n/10 (+20) count-ing, e.g.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\OT1/ptm/m/n/10 (+20) com-puter re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\OT1/ptm/m/n/10 (+20) sources, ac-cess
  []
 
 
@@ -1695,27 +1604,17 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 497--498
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 501--502
-[]|\OT1/ptm/m/n/10 (+20) Bona-Fide users
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 498--499
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 502--503
-\OT1/ptm/m/n/10 (+20) ac-cess) to a dataset or other re-
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 503--504
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 500--501
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
 Overfull \hbox (4.23013pt too wide) in paragraph at lines 504--505
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 505--506
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1735,13 +1634,18 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 508--509
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 509--510
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 6477) in paragraph at lines 512--513
+[]|\OT1/ptm/m/n/10 (+20) Bona-Fide users
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-[]|\OT1/ptm/m/n/10 (+20) Group man-age-
+Underfull \hbox (badness 1221) in paragraph at lines 513--514
+\OT1/ptm/m/n/10 (+20) ac-cess) to a dataset or other re-
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 514--515
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1760,8 +1664,23 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 517--518
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 525--526
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 518--519
 []|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 519--520
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 520--521
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+[]|\OT1/ptm/m/n/10 (+20) Group man-age-
  []
 
 
@@ -1775,12 +1694,7 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 527--528
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 534--535
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 535--536
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 528--529
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1790,13 +1704,13 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 536--537
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-[]|\OT1/ptm/m/n/10 (+20) Entity at-tribute
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 537--538
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 542--543
-\OT1/ptm/m/n/10 (+20) adop-tion stream-
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 538--539
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1815,33 +1729,43 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 547--548
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 548--549
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+[]|\OT1/ptm/m/n/10 (+20) Entity at-tribute
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 550--551
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 552--553
-[]|\OT1/ptm/m/n/10 (+20) Attribute re-lease
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 554--555
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 555--556
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 4713) in paragraph at lines 553--554
+\OT1/ptm/m/n/10 (+20) adop-tion stream-
  []
 
 
 Overfull \hbox (4.23013pt too wide) in paragraph at lines 556--557
 []|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 557--558
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 558--559
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 559--560
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 561--562
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 563--564
+[]|\OT1/ptm/m/n/10 (+20) Attribute re-lease
  []
 
 
@@ -1860,18 +1784,8 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 567--568
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-[]|\OT1/ptm/m/n/10 (+20) Peer as-sess-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-\OT1/ptm/m/n/10 (+20) re-sponse per-for-
- []
-
-
-Underfull \hbox (badness 2617) in paragraph at lines 574--575
-\OT1/ptm/m/n/10 (+20) a fed-er-ated se-cu-rity in-ci-dent re-
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 576--577
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1885,33 +1799,38 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 578--579
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 581--582
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+[]|\OT1/ptm/m/n/10 (+20) Peer as-sess-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+\OT1/ptm/m/n/10 (+20) re-sponse per-for-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 585--586
+\OT1/ptm/m/n/10 (+20) a fed-er-ated se-cu-rity in-ci-dent re-
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 588--589
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 589--590
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 592--593
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 \OT1/ptm/m/n/10 (+20) com-mu-ni-ca-tion
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 586--587
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 587--588
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 591--592
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 596--597
-[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1920,8 +1839,13 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 597--598
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
-[]|\OT1/ptm/m/n/10 (+20) IdP/SP Prox-ies
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 598--599
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 602--603
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -1935,12 +1859,12 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 608--609
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 609--610
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+[]|\OT1/ptm/m/n/10 (+20) IdP/SP Prox-ies
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 617--618
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 618--619
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1950,12 +1874,7 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 619--620
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 622--623
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 627--628
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 620--621
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -1965,37 +1884,32 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 628--629
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 629--630
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 630--631
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 632--633
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 633--634
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 637--638
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 638--639
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
-[]|\OT1/ptm/m/n/10 (+20) Assurance &
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 639--640
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
-\OT1/ptm/m/n/10 (+20) Multi Fac-tor
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 640--641
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
-\OT1/ptm/m/n/10 (+20) Au-then-ti-ca-tion
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 647--648
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 643--644
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -2005,27 +1919,22 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 648--649
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 649--650
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 650--651
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 652--653
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
+[]|\OT1/ptm/m/n/10 (+20) Assurance &
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 655--656
-[]|\OT1/ptm/m/n/10 (+20) Step up
+\OT1/ptm/m/n/10 (+20) Multi Fac-tor
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 657--658
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
+\OT1/ptm/m/n/10 (+20) Au-then-ti-ca-tion
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 658--659
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -2035,38 +1944,43 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 659--660
  []
 
 
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 660--661
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
 Overfull \hbox (4.23013pt too wide) in paragraph at lines 661--662
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 666--667
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 663--664
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
+[]|\OT1/ptm/m/n/10 (+20) Step up
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 668--669
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 670--671
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 672--673
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 677--678
 \OT1/ptm/m/n/10 (+20) con-sis-tent prop-a-
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 669--670
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
-[]|\OT1/ptm/m/n/10 (+20) IdP de-ploy-ment
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 677--678
-\OT1/ptm/m/n/10 (+20) IdPs must meet in or-der to pro-
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 678--679
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 679--680
-[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -2075,33 +1989,13 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 680--681
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 684--685
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
+[]|\OT1/ptm/m/n/10 (+20) IdP de-ploy-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
-[]|\OT1/ptm/m/n/10 (+20) Federation en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
-\OT1/ptm/m/n/10 (+20) tity at-tributes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
-\OT1/ptm/m/n/10 (+20) de-signed to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
-\OT1/ptm/m/n/10 (+20) en-hance user
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 688--689
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 1028) in paragraph at lines 688--689
+\OT1/ptm/m/n/10 (+20) IdPs must meet in or-der to pro-
  []
 
 
@@ -2115,13 +2009,33 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 690--691
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
-[]|\OT1/ptm/m/n/10 (+20) Non-web use
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 691--692
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 698--699
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 695--696
 []|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+[]|\OT1/ptm/m/n/10 (+20) Federation en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+\OT1/ptm/m/n/10 (+20) tity at-tributes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+\OT1/ptm/m/n/10 (+20) de-signed to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+\OT1/ptm/m/n/10 (+20) en-hance user
  []
 
 
@@ -2140,22 +2054,17 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 701--702
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 702--703
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 703--704
-[]|\OT1/ptm/m/n/10 (-20) X| 
- []
-
-
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 708--709
-[]|\OT1/ptm/m/n/10 (-20) X| 
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
+[]|\OT1/ptm/m/n/10 (+20) Non-web use
  []
 
 
 Overfull \hbox (4.23013pt too wide) in paragraph at lines 710--711
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 711--712
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
@@ -2165,8 +2074,18 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 712--713
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 717--718
-[]|\OT1/ptm/m/n/10 (+20) Delegation here means pro-vid-ing
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 713--714
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 714--715
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 715--716
+[]|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
@@ -2180,290 +2099,258 @@ Overfull \hbox (4.23013pt too wide) in paragraph at lines 722--723
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 723--724
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 724--725
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 730--731
+Underfull \hbox (badness 1067) in paragraph at lines 729--730
+[]|\OT1/ptm/m/n/10 (+20) Delegation here means pro-vid-ing
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 732--733
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--737
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 734--735
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 735--736
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 742--743
+[]|\OT1/ptm/m/n/10 (-20) X| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
 []|\OT1/ptm/m/n/10 (+20) On-boarding &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
 []|\OT1/ptm/m/n/10 (+20) Non-legal en-tity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
 \OT1/ptm/m/n/10 (+20) par-tic-i-pa-tion in
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 740--741
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 752--753
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 745--746
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 757--758
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 750--751
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 762--763
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 761--762
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 773--774
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
 []|\OT1/ptm/m/n/10 (+20) Simple pro-cess
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 770--771
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 782--783
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 771--772
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 783--784
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 780--781
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 792--793
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 790--791
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 802--803
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 []|\OT1/ptm/m/n/10 (+20) IdPoLR not-a-
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 800--801
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 812--813
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 805--806
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 817--818
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 807--808
+Underfull \hbox (badness 1117) in paragraph at lines 819--820
 []|\OT1/ptm/m/n/10 (+20) Sustainable op-er-
  []
 
 
-Overfull \hbox (4.23013pt too wide) in paragraph at lines 810--811
+Overfull \hbox (4.23013pt too wide) in paragraph at lines 822--823
 []|\OT1/ptm/m/n/10 (-20) X| 
  []
 
 [11] [12] [13] [14] [15]
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 823.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 836.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 823.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 836.
 
-
-LaTeX Warning: Citation `rns' on page 16 undefined on input line 827.
-
-<RequirementsBreakdown.png, id=500, 624.3325pt x 263.98625pt>
+<RequirementsBreakdown.png, id=545, 624.3325pt x 263.98625pt>
 File: RequirementsBreakdown.png Graphic file (type png)
 
 <use RequirementsBreakdown.png>
-Package pdftex.def Info: RequirementsBreakdown.png used on input line 839.
+Package pdftex.def Info: RequirementsBreakdown.png used on input line 852.
 (pdftex.def)             Requested size: 338.58632pt x 143.16675pt.
  [16]
-<RequirementsVoting.png, id=509, 615.29875pt x 375.4025pt>
+<RequirementsVoting.png, id=555, 615.29875pt x 375.4025pt>
 File: RequirementsVoting.png Graphic file (type png)
 
 <use RequirementsVoting.png>
-Package pdftex.def Info: RequirementsVoting.png used on input line 854.
+Package pdftex.def Info: RequirementsVoting.png used on input line 867.
 (pdftex.def)             Requested size: 338.58632pt x 206.58084pt.
  [17 <./RequirementsBreakdown.png> <./RequirementsVoting.png>] [18] [19]
-Overfull \hbox (25.19998pt too wide) in alignment at lines 920--971
+Overfull \hbox (25.19998pt too wide) in alignment at lines 933--984
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 971
+Underfull \vbox (badness 10000) detected at line 984
  []
 
-[20]
-No file main.bbl.
-[21] (./fim4rv2-authors-appendix.tex
-Overfull \hbox (4.47577pt too wide) in alignment at lines 6--13
+(./main.bbl [20]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 17.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+[]\OT1/ptm/m/n/10 (+20) OpenID Con-nect Fed-er-a-tion 1.0 - draft 04.  [][]$\OT
+1/pcr/m/n/10 https : / / openid . net / specs /
+ []
+
+
+Overfull \hbox (285.30313pt too wide) in paragraph at lines 52--55
+\OT1/pcr/m/n/10 eu / info / files / regulation-[]eu-[]2016-[]679-[]protection-[
+]natural-[]persons-[]regard-[]processing-[]personal-[]data-[]and-[]free-[]movem
+ent-[]such-[]data _
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 154--157
+[]\OT1/ptm/m/n/10 (+20) ELIXIR AAI doc-u-men-ta-tion - ELIXIR Eu-rope.  [][]$\O
+T1/pcr/m/n/10 https : / / www . elixir-[]europe . org / services /
+ []
+
+[21]) [22] (./fim4rv2-authors-appendix.tex
+Overfull \hbox (7.32079pt too wide) in alignment at lines 12--30
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.47577pt too wide) in alignment at lines 13--113
+Overfull \hbox (7.32079pt too wide) in alignment at lines 30--147
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.47577pt too wide) in alignment at lines 113--213
+Overfull \hbox (7.32079pt too wide) in alignment at lines 147--265
  [] [] [] [] 
  []
 
 
-Overfull \hbox (4.47577pt too wide) in alignment at lines 213--217
+Overfull \hbox (7.32079pt too wide) in alignment at lines 265--270
  [] [] [] [] 
  []
 
-[22]) [23]
-
-LaTeX Warning: Citation `dariah' on page 24 undefined on input line 993.
-
-
-LaTeX Warning: Citation `dariahaai' on page 24 undefined on input line 1001.
-
-
-LaTeX Warning: Citation `esgf' on page 24 undefined on input line 1004.
-
-[24] <eo.png, id=551, 636.3775pt x 321.2pt>
+[23]) [24] [25] <eo.png, id=673, 636.3775pt x 321.2pt>
 File: eo.png Graphic file (type png)
  <use eo.png>
-Package pdftex.def Info: eo.png used on input line 1028.
+Package pdftex.def Info: eo.png used on input line 1044.
 (pdftex.def)             Requested size: 338.58632pt x 170.89194pt.
- [25]
-
-LaTeX Warning: Citation `cta-intro' on page 26 undefined on input line 1056.
-
-[26 <./eo.png>]
-
-LaTeX Warning: Citation `cta-data-man' on page 27 undefined on input line 1058.
-
-
-<cta-table.png, id=564, 350.30875pt x 255.95625pt>
+ [26]
+[27 <./eo.png>] <cta-table.png, id=687, 350.30875pt x 255.95625pt>
 File: cta-table.png Graphic file (type png)
- <use cta-table.png>
-Package pdftex.def Info: cta-table.png used on input line 1066.
+
+<use cta-table.png>
+Package pdftex.def Info: cta-table.png used on input line 1082.
 (pdftex.def)             Requested size: 338.58632pt x 247.40631pt.
-
-
-LaTeX Warning: Citation `costa-jgc' on page 27 undefined on input line 1073.
-
-<cta-aai.png, id=566, 499.8675pt x 224.84pt>
+ <cta-aai.png, id=690, 499.8675pt x 224.84pt>
 File: cta-aai.png Graphic file (type png)
- <use cta-aai.png>
-Package pdftex.def Info: cta-aai.png used on input line 1077.
+
+<use cta-aai.png>
+Package pdftex.def Info: cta-aai.png used on input line 1093.
 (pdftex.def)             Requested size: 338.58632pt x 152.3025pt.
-
-
-LaTeX Warning: Citation `COSTA2018' on page 27 undefined on input line 1084.
-
-[27 <./cta-table.png>] [28 <./cta-aai.png>]
-
-LaTeX Warning: Citation `hnscicloud' on page 29 undefined on input line 1132.
-
-[29]
-
-LaTeX Warning: Citation `madrigal' on page 30 undefined on input line 1158.
-
-[30] [31]
-Underfull \hbox (badness 4266) in paragraph at lines 1206--1206
+ [28 <./cta-table.png>] [29 <./cta-aai.png>] [30] [31]
+[32]
+Underfull \hbox (badness 4266) in paragraph at lines 1222--1222
 []|\OT1/ptm/m/n/10 (+20) Biobanking & biomolec-u-lar re-
  []
 
-[32]
-
-LaTeX Warning: Citation `ls-ref' on page 33 undefined on input line 1249.
-
-
-LaTeX Warning: Citation `elixir-aai' on page 33 undefined on input line 1254.
-
-
-LaTeX Warning: Citation `Brandizi2017' on page 33 undefined on input line 1261.
-
-
-
-LaTeX Warning: Citation `Linden' on page 33 undefined on input line 1261.
-
-
-LaTeX Warning: Citation `dyke' on page 33 undefined on input line 1263.
-
-
-LaTeX Warning: Citation `ga4gh' on page 33 undefined on input line 1265.
-
-[33]
-
-LaTeX Warning: Citation `vanuyt' on page 34 undefined on input line 1274.
-
-
-LaTeX Warning: Citation `Mistuka' on page 34 undefined on input line 1281.
-
-[34] [35] [36] <ska-domain.png, id=619, 630.355pt x 306.14375pt>
+[33] [34] [35] [36] [37] <ska-domain.png, id=755, 630.355pt x 306.14375pt>
 File: ska-domain.png Graphic file (type png)
 
 <use ska-domain.png>
-Package pdftex.def Info: ska-domain.png used on input line 1362.
+Package pdftex.def Info: ska-domain.png used on input line 1378.
 (pdftex.def)             Requested size: 338.58632pt x 164.4416pt.
- <ska-auth.png, id=620, 489.83pt x 348.30125pt>
+ <ska-auth.png, id=756, 489.83pt x 348.30125pt>
 File: ska-auth.png Graphic file (type png)
 
 <use ska-auth.png>
-Package pdftex.def Info: ska-auth.png used on input line 1369.
+Package pdftex.def Info: ska-auth.png used on input line 1385.
 (pdftex.def)             Requested size: 338.58632pt x 240.76392pt.
+ [38 <./ska-domain.png>] [39 <./ska-auth.png>]
 
-
-LaTeX Warning: Citation `vamdc-standards' on page 37 undefined on input line 13
-84.
-
-
-LaTeX Warning: Citation `vamdc-ref' on page 37 undefined on input line 1384.
-
-
-LaTeX Warning: Citation `vamdc-home' on page 37 undefined on input line 1384.
-
-[37 <./ska-domain.png>] [38 <./ska-auth.png>] 
 AED: lastpage setting LastPage
-[39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1411.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1411.
+[40]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1427.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1427.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1411.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1411.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1427.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1427.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 55075CBEA8CFCE296E212EF8690D71C3;5665.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1411.
+(rerunfilecheck)             Checksum: CC3A2B2D79928000D154B81F50002039;5721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1427.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 131 ({)
+### simple group (level 1) entered at line 139 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18894 strings out of 493014
- 356854 string characters out of 6133351
- 582771 words of memory out of 5000000
- 21853 multiletter control sequences out of 15000+600000
- 69829 words of font info for 259 fonts, out of 8000000 for 9000
+ 19093 strings out of 493014
+ 360585 string characters out of 6133351
+ 585116 words of memory out of 5000000
+ 21985 multiletter control sequences out of 15000+600000
+ 71578 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,49p,2653b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,67p,2653b,856s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -2471,15 +2358,17 @@ t does not exist, replaced by a fixed one
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb>
-Output written on main.pdf (39 pages, 1872112 bytes).
+2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on main.pdf (40 pages, 1914529 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
- 561 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 53316 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 708 compressed objects within 8 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 55884 words of extra memory for PDF output out of 61914 (max. 10000000)
 

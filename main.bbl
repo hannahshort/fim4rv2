@@ -1,0 +1,218 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{DOI }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{FIM4Rv1:2012}
+\bibinfo{author}{Broeder, D.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Federated identity management for
+  research collaborations}}.
+\newblock {\emph{\JournalTitle{CERN}}}  (\bibinfo{year}{2012}).
+
+\bibitem{refeds}
+\bibinfo{title}{{REFEDS}}.
+\newblock \bibinfo{howpublished}{\url{https://refeds.org/}}.
+
+\bibitem{GN4}
+\bibinfo{title}{{GÉANT Project (GN4-1)}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.geant.org/Projects/GEANT_Project_GN4-1}}.
+
+\bibitem{aarc}
+\bibinfo{title}{{Authentication and Authorisation for Research and
+  Collaboration, AARC}}.
+\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/}}.
+
+\bibitem{fim4rweb}
+\bibinfo{title}{{Federated Identity Management for Research, FIM4R}}.
+\newblock \bibinfo{howpublished}{\url{https://fim4r.org/}}.
+
+\bibitem{orcid}
+\bibinfo{title}{{ORCID}}.
+\newblock \bibinfo{howpublished}{\url{https://orcid.org/}}.
+
+\bibitem{oidc}
+\bibinfo{title}{{OpenID Connect | OpenID.}}
+\newblock \bibinfo{howpublished}{\url{http://openid.net/connect/}}.
+
+\bibitem{moonshot}
+\bibinfo{title}{{Moonshot Wiki: Home - Home.}}
+\newblock \bibinfo{howpublished}{\url{https://wiki.moonshot.ja.net/}}.
+
+\bibitem{oidcfed}
+\bibinfo{title}{{OpenID Connect Federation 1.0 - draft 04.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://openid.net/specs/openid-connect-federation-1_0.html}}.
+
+\bibitem{GDPR:2016}
+\bibinfo{title}{Regulation (eu) 2016/679 of the european parliament and of the
+  council of 27 april 2016}.
+\newblock
+  \bibinfo{howpublished}{\url{https://ec.europa.eu/info/files/regulation-eu-2016-679-protection-natural-persons-regard-processing-personal-data-and-free-movement-such-data_en}}.
+
+\bibitem{eugdpr}
+\bibinfo{title}{{EU GDPR Information Portal.}}
+\newblock \bibinfo{howpublished}{\url{https://www.eugdpr.org/}}.
+
+\bibitem{assessdp}
+\bibinfo{title}{{Assessment of DP Legislation Implications - Géant.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.geant.org/Projects/GEANT_Project_GN4/deliverables/M9-2_Assessment-of-DP-Legislation-Implications.pdf}}.
+
+\bibitem{attributerelease}
+\bibinfo{title}{{Guidance on justification for attribute release for RandS.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://wiki.refeds.org/pages/viewpage.action?pageId=4194359}}.
+
+\bibitem{baseline}
+\bibinfo{title}{{Baseline Expectations for Trust in Federation - InCommon.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.incommon.org/federation/baseline/}}.
+
+\bibitem{dpcoco}
+\bibinfo{title}{{Data Protection Code of Conduct Home - REFEDS wiki.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://wiki.refeds.org/display/CODE/Data+Protection+Code+of+Conduct+Home}}.
+
+\bibitem{sirtfi}
+\bibinfo{title}{{Security Incident Response Framework for Federated Identity,
+  Sirtfi}}.
+\newblock \bibinfo{howpublished}{\url{https://refeds.org/sirtfi}}.
+
+\bibitem{aarcbpa}
+\bibinfo{title}{{AARC Blueprint Architecture – AARC.}}
+\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/architecture/}}.
+
+\bibitem{aarcguidelines}
+\bibinfo{title}{{Guidelines - AARC project.}}
+\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/guidelines/}}.
+
+\bibitem{rns}
+\bibinfo{title}{{Research and Scholarship - REFEDS}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://refeds.org/research-and-scholarship}}.
+
+\bibitem{dariah}
+\bibinfo{title}{{DARIAH | Digital Research Infrastructure for the Arts and
+  Humanities.}}
+\newblock \bibinfo{howpublished}{\url{https://www.dariah.eu/}}.
+
+\bibitem{dariahaai}
+\bibinfo{title}{{DARIAH AAI Documentation - DARIAH-DE public - DARIAH Wiki.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://wiki.de.dariah.eu/display/publicde/DARIAH+AAI+Documentation}}.
+
+\bibitem{esgf}
+\bibinfo{title}{{ESGF Home Page}}.
+\newblock \bibinfo{howpublished}{\url{https://esgf.llnl.gov/}}.
+
+\bibitem{cta-intro}
+\bibinfo{title}{{Introducing the CTA concept - Science Direct.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.sciencedirect.com/science/article/pii/S0927650513000169}}.
+
+\bibitem{cta-data-man}
+\bibinfo{author}{{Lamanna}, G.} \emph{et~al.}
+\newblock \bibinfo{title}{{Cherenkov Telescope Array Data Management}}.
+\newblock In \bibinfo{editor}{{Borisov}, A.~S.} \emph{et~al.} (eds.)
+  \emph{\bibinfo{booktitle}{34th International Cosmic Ray Conference
+  (ICRC2015)}}, vol.~\bibinfo{volume}{34} of
+  \emph{\bibinfo{series}{International Cosmic Ray Conference}},
+  \bibinfo{pages}{947} (\bibinfo{year}{2015}).
+\newblock \eprint{1509.01012}.
+
+\bibitem{costa-jgc}
+\bibinfo{journal}{\bibinfo{author}{Costa, A.}}
+\newblock {\emph{\JournalTitle{J. Grid Comput.}}} \textbf{\bibinfo{volume}{13}}
+  (\bibinfo{year}{2015}).
+
+\bibitem{COSTA2018}
+\bibinfo{author}{Costa, A.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{An integrated workspace for the
+  cherenkov telescope array}}.
+\newblock {\emph{\JournalTitle{Future Generation Computer Systems}}}
+  (\bibinfo{year}{2018}).
+\newblock \doiprefix https://doi.org/10.1016/j.future.2018.04.009.
+
+\bibitem{hnscicloud}
+\bibinfo{title}{{HNSciCloud}}.
+\newblock \bibinfo{howpublished}{\url{https://www.hnscicloud.eu/.}}
+
+\bibitem{madrigal}
+\bibinfo{title}{{Madrigal Database}}.
+\newblock \bibinfo{howpublished}{\url{https://www.eiscat.se/madrigal/}}.
+
+\bibitem{ls-ref}
+\bibinfo{title}{{CSC HPC Services - CERN Indico}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://indico.cern.ch/event/647693/contributions/2693208/attachments/1525943/2385987/20170912_ELIXIR_Nyronen_for_FIM4R.pdf}}.
+
+\bibitem{elixir-aai}
+\bibinfo{title}{{ELIXIR AAI documentation - ELIXIR Europe.}}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.elixir-europe.org/services/compute/aai}}.
+
+\bibitem{Brandizi2017}
+\bibinfo{author}{Brandizi, M.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Orchestrating differential data
+  access for translational research: a pilot implementation}}.
+\newblock {\emph{\JournalTitle{BMC Medical Informatics and Decision Making}}}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{30} (\bibinfo{year}{2017}).
+\newblock \doiprefix 10.1186/s12911-017-0424-6.
+
+\bibitem{Linden}
+\bibinfo{author}{Linden, M.}, \bibinfo{author}{(CSC), T.~N.} \&
+  \bibinfo{author}{Institute), I. L. T. E.-E.~B.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Resource Entitlement Management
+  System}}}.
+\newblock {\emph{\JournalTitle{Selected papers of TNC2013 Conference}}}
+  (\bibinfo{year}{2013}).
+
+\bibitem{dyke}
+\bibinfo{author}{Dyke, S. O.~M.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Registered access: a
+  `triple-a'approach}}.
+\newblock {\emph{\JournalTitle{European Journal Of Human Genetics}}}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{1676 EP --}
+  (\bibinfo{year}{2016}).
+
+\bibitem{ga4gh}
+\bibinfo{title}{{Global Alliance for Genomics and Health (GA4GH)}}.
+\newblock \bibinfo{howpublished}{\url{https://www.ga4gh.org/}}.
+
+\bibitem{vanuyt}
+\bibinfo{author}{van Uytvanck, D.}, \bibinfo{author}{Elbers, W.} \&
+  \bibinfo{author}{Moreira, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{D2.7 Service Provider Federation
+  Full Extension}}}.
+\newblock {\emph{\JournalTitle{CLARIN-PLUS Deliverables}}}
+  (\bibinfo{year}{2017}).
+
+\bibitem{Mistuka}
+\bibinfo{author}{Mišutka, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{D2.2 Robust SPF 1: workflow and
+  monitoring}}}.
+\newblock {\emph{\JournalTitle{CLARIN-PLUS Deliverables}}}
+  (\bibinfo{year}{2016}).
+
+\bibitem{vamdc-standards}
+\bibinfo{title}{{Query language [v 12.07] [r 12.07] — VAMDC standards
+  documentation.}}
+\newblock
+  \bibinfo{howpublished}{\url{http://vamdc.eu/documents/standards/queryLanguage/index.html}}.
+
+\bibitem{vamdc-ref}
+\bibinfo{title}{{VAMDC-XSAMS reference guide [v 1.0] [r 12.07] — VAMDC
+  standards ....}}
+\newblock
+  \bibinfo{howpublished}{\url{http://vamdc.eu/documents/standards/dataModel/vamdcxsams/index.html}}.
+
+\bibitem{vamdc-home}
+\bibinfo{title}{{Welcome to the VAMDC portal!}}
+\newblock
+  \bibinfo{howpublished}{\url{https://portal.vamdc.eu/vamdc_portal/home.seam}}.
+
+\end{thebibliography}
