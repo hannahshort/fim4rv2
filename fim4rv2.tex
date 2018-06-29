@@ -19,8 +19,12 @@
 
 %kelsey - references changes
 %\usepackage{cite}
-\usepackage[sort,square]{natbib}
 
+%\usepackage[hidelinks]{hyperref}
+%\hypersetup{breaklinks=true}
+\usepackage[sort,square,numbers,longnamesfirst]{natbib}
+%\usepackage[hyphens]{url}
+\usepackage{breakurl}
 
 \title{Federated Identity Management for Research Collaborations}
 %\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix\ref{appendix:authors})}
@@ -162,7 +166,7 @@ This white-paper expresses common requirements of Research Communities seeking t
 \tableofcontents
 \newpage
 \section{Introduction}
-“Federated identity management (FIM) is an arrangement that can be made among multiple organisations that lets subscribers use the same identification data to obtain access to the secured resources of all organisations in the group. Identity federation offers economic advantages, as well as convenience, to organisations and their users. For example, multiple institutions can share a single community application, with resultant cost savings and consolidation of resources. In order for FIM to be effective, the partners must have a sense of mutual trust.”\cite{FIM4Rv1:2012}\footnote{For any particular organisation the term "resources" may refer to any combination of data, compute services, and research instruments.} 
+“Federated identity management (FIM) is an arrangement that can be made among multiple organisations that lets subscribers use the same identification data to obtain access to the secured resources of all organisations in the group. Identity federation offers economic advantages, as well as convenience, to organisations and their users. For example, multiple institutions can share a single community application, with resultant cost savings and consolidation of resources. In order for FIM to be effective, the partners must have a sense of mutual trust.”\citep*{FIM4Rv1:2012}\footnote{For any particular organisation the term "resources" may refer to any combination of data, compute services, and research instruments.} 
 
 Many research fields are facing the challenge of a deluge of scientific data that needs to be accessed by expanding user bases in dynamic collaborations that cross organisational and national boundaries. Driven by these needs, representatives from a variety of communities, including photon/neutron facilities, social science \& humanities, high-energy physics, atmospheric science, bioinformatics and fusion energy, came together in 2012 to publish a set of joint requirements. A common vision for FIM across these communities was presented as well as the key stages of a roadmap and a set of recommendations intended to ensure its implementation. 
 
@@ -175,7 +179,7 @@ FIM4R\cite{fim4rweb} (Federated Identity Management for Research) is a collectio
 The FIM4R authors envisage this paper to be influential in guiding the development of Federated Identity Management technology and policy in the coming years. It is hoped that the paper will be read widely, by funding agencies, technology providers, policy makers and other stakeholders, and that future progress will reflect the requirements and recommendations of the research communities represented here. This work represents the current challenges and status of research communities and effort has been made to be as technology agnostic as possible. The contributors aspire for this content to remain relevant as the protocols and tools continue to evolve. 
 
 \subsection{Structure of the Paper}
-This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\cite{FIM4Rv1:2012} in 2012, which we’ll refer to as “FIM4R v1”. It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
+This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\citep*{FIM4Rv1:2012} in 2012, which we’ll refer to as “FIM4R v1”. It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
 
 Based on this data and its analysis, recommendations are identified, together with those groups best positioned to address each of them, which provide specific guidance for shaping the future of FIM in line with the needs of research communities. An appendix contains a narrative description of each participating research community. These convey the current status of authentication and authorisation in different disciplines and highlight some of their particular challenges. 
 
@@ -1001,8 +1005,13 @@ We plan to publish a version 2.1 of this paper, which will address any comments,
 
 % needed for documentclass {article}
 %\bibliographystyle{abbrv}
+%\bibliographystyle{abbrvnat}
 
+%\Urlmuskip=0mu plus 1mu\relax
+
+\begin{flushleft}
 \bibliography{fim4r}
+\end{flushleft}
 
 \section{Acknowledgements}
 The authors acknowledge the contributions to this work made by all former members of the FIM4R collaboration. In particular, we thank Bob Jones from CERN, for his vision and leadership during the FIM4R v1 era, and for his contributions to Version 2. We also wish to thank colleagues, too many to name individually, in REFEDS, in GN4, among the national federations, the providers of identity management software, and the operators of many diverse Trust and Identity services for their endeavours to meet our FIM4R requirements. 

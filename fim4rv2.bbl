@@ -11,6 +11,7 @@
 \newblock \bibinfo{journal}{\bibinfo{title}{Federated identity management for
   research collaborations}}.
 \newblock {\emph{\JournalTitle{CERN}}}  (\bibinfo{year}{2012}).
+\newblock \bibinfo{note}{\url{https://cds.cern.ch/record/1442597/}}.
 
 \bibitem{refeds}
 \bibinfo{title}{{REFEDS}}.
@@ -48,10 +49,10 @@
   \bibinfo{howpublished}{\url{https://openid.net/specs/openid-connect-federation-1_0.html}}.
 
 \bibitem{GDPR:2016}
-\bibinfo{title}{Regulation (eu) 2016/679 of the european parliament and of the
-  council of 27 april 2016}.
-\newblock
-  \bibinfo{howpublished}{\url{https://ec.europa.eu/info/files/regulation-eu-2016-679-protection-natural-persons-regard-processing-personal-data-and-free-movement-such-data_en}}.
+\bibinfo{title}{Regulation ({EU}) 2016/679 of the european parliament and of
+  the council of 27 april 2016}.
+\newblock \bibinfo{howpublished}{\url
+  {https://ec.europa.eu/info/files/regulation-eu-2016-679-protection-natural-persons-regard-processing-personal-data-and-free-movement-such-data_en}}.
 
 \bibitem{eugdpr}
 \bibinfo{title}{{EU GDPR Information Portal.}}
