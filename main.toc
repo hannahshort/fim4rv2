@@ -38,7 +38,7 @@
 \contentsline {section}{\hspace *{-\tocsep }References}{20}{section.6}
 \contentsline {section}{\numberline {7}Acknowledgements}{22}{section.7}
 \contentsline {section}{\numberline {A}Appendix: Authors}{23}{appendix.A}
-\contentsline {section}{\numberline {B}Descriptions of Contributing Research Communities}{25}{appendix.B}
+\contentsline {section}{\numberline {B}Appendix: Descriptions of Contributing Research Communities}{25}{appendix.B}
 \contentsline {subsection}{\numberline {B.1}Arts and Humanities}{25}{subsection.B.1}
 \contentsline {subsection}{\numberline {B.2}Climate Science}{25}{subsection.B.2}
 \contentsline {subsection}{\numberline {B.3}Earth Observation (EO)}{26}{subsection.B.3}

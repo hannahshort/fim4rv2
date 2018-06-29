@@ -1,4 +1,4 @@
-\documentclass[fleqn,10pt]{wlscirep} 
+\documentclass[fleqn,11pt]{wlscirep} 
 \usepackage{array,longtable,multirow}
 \usepackage{fancyhdr}
 \geometry{a4paper}
@@ -12,7 +12,6 @@
 \rfoot{Page \thepage}
 \cfoot{FIM4R Version 2.0}
 
-\bibliographystyle{abbrv}
 
 \title{Federated Identity Management for Research Collaborations}
 %\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix\ref{appendix:authors})}
@@ -1003,7 +1002,7 @@ The authors also acknowledge the support and collaboration of many other colleag
 \input{fim4rv2-authors-appendix.tex}
 
 \newpage
-\section{Descriptions of Contributing Research Communities}
+\section{Appendix: Descriptions of Contributing Research Communities}
 
 \subsection{Arts and Humanities}
 The DARIAH (Digital Research Infrastructure for the Arts and Humanities)\cite{dariah} project is an ESFRI activity to design, set up and operate productively an infrastructure to support virtual research environments in the humanities, and thus furthers the digital humanities, a field that is being established to add new methods to all fields of humanities. DARIAH-DE, the German part of this all-European effort, runs an own IdP, as many users of the DARIAH infrastructure are “homeless,” i.e. they are not members of an organisation in a national federation or eduGAIN, or their organisation although being part of the federation, even refuses to release a permanent identifier to DARIAH services, which require the release of at least eduPersonPrincipalName. In any case, whether authenticated by her organisation or by the DARIAH IdP, the user will be redirected to a registration page when first attempting to use DARIAH services, so that the infrastructure retrieves needed attributes, such as email address, but also so that the user can consent to the DARIAH terms of use. The LDAP server that stores this additional information is also used to manage authorisation attributes such as privilege group memberships, that are consumed by DARIAH services for making access control decisions The DARIAH IdP can thus release all these attributes to the service via direct SAML Attribute Queries.
