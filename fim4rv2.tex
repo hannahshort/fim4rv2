@@ -1,7 +1,12 @@
 \documentclass[fleqn,11pt]{wlscirep} 
+%\documentclass[10pt,a4paper]{article}
 \usepackage{array,longtable,multirow}
 \usepackage{fancyhdr}
 \geometry{a4paper}
+
+% needed for documentclass {article}
+%\usepackage{graphicx,url,hyperref}
+
 
 \usepackage[tableposition=below]{caption}
 \captionsetup[longtable]{skip=1em}
@@ -119,6 +124,10 @@
 % \affil[74]{HNSciCloud}
 % \affil[75]{Internet2 }
 % \affil[76]{ORCID}
+
+% needed here for documentclass {article}
+%\begin{document}
+%\maketitle
 
 \begin{abstract}
 This white-paper expresses common requirements of Research Communities seeking to leverage Identity Federation for Authentication and Authorisation. Recommendations are made to Stakeholders to guide the future evolution of Federated Identity Management in a direction that better satisfies research use cases. The authors represent research communities, Research Services, Infrastructures, Identity Federations and Interfederations, with a joint motivation to ease collaboration for distributed researchers. The content has been edited collaboratively by the Federated Identity Management for Research (FIM4R) Community, with input sought at conferences and meetings in Europe, Asia and North America. 
@@ -985,6 +994,9 @@ Sensitive Research User Experience \\ \hline
 
 \section{Next Steps}
 We plan to publish a version 2.1 of this paper, which will address any comments, additions and amendments communicated to the editing board by new communities that have not yet taken part in this FIM4R activity. To contact the editorial board, please use the contact details that can be found at fim4r.org. Although this version 2 already encompasses more communities than version 1, we feel that the group is still far from complete. We herewith call all research infrastructures that do see or at least begin to see the necessity of FIM for opening their user base but still want to have control on access to resources to add their own new requirements or to emphasise the requirements listed in this version. Although domain specific research e-Infrastructures are the main focus of this activity, other groups working on cross-domain infrastructures and technologies (The Research Data Alliance, RDA, for example) are also herewith encouraged to provide input to the next version of this text. 
+
+% needed for documentclass {article}
+%\bibliographystyle{abbrv}
 
 \bibliography{fim4r}
 
