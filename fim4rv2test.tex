@@ -1,7 +1,7 @@
-
-
 \RequirePackage{etoolbox}
-\patchcmd{\bibliographystyle}{#1}{abbrvnat}{}{}
+%\patchcmd{\bibliographystyle}{#1}{plainnat}{}{}
+\patchcmd{\bibliographystyle}{#1}{unsrtnat}{}{}
+
 
 
 \documentclass[fleqn,10pt]{wlscirep} 
@@ -28,9 +28,11 @@
 
 %\usepackage[hidelinks]{hyperref}
 %\hypersetup{breaklinks=true}
-\usepackage[sort,square,numbers,longnamesfirst]{natbib}
+\usepackage[sort&compress,square,numbers,longnamesfirst]{natbib}
+
+
 %\usepackage[hyphens]{url}
-\usepackage{breakurl}
+%\usepackage{breakurl}
 
 \title{Federated Identity Management for Research Collaborations}
 %\author[1]{Authored by the members of the “Federated Identity Management for Research (FIM4R)” collaboration (See Appendix\ref{appendix:authors})}
@@ -185,7 +187,7 @@ FIM4R\cite{fim4rweb} (Federated Identity Management for Research) is a collectio
 The FIM4R authors envisage this paper to be influential in guiding the development of Federated Identity Management technology and policy in the coming years. It is hoped that the paper will be read widely, by funding agencies, technology providers, policy makers and other stakeholders, and that future progress will reflect the requirements and recommendations of the research communities represented here. This work represents the current challenges and status of research communities and effort has been made to be as technology agnostic as possible. The contributors aspire for this content to remain relevant as the protocols and tools continue to evolve. 
 
 \subsection{Structure of the Paper}
-This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\citep*{FIM4Rv1:2012} in 2012, which we’ll refer to as “FIM4R v1”. It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
+This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\cite{FIM4Rv1:2012} in 2012, which we’ll refer to as “FIM4R v1”. It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
 
 Based on this data and its analysis, recommendations are identified, together with those groups best positioned to address each of them, which provide specific guidance for shaping the future of FIM in line with the needs of research communities. An appendix contains a narrative description of each participating research community. These convey the current status of authentication and authorisation in different disciplines and highlight some of their particular challenges. 
 
@@ -1015,7 +1017,7 @@ We plan to publish a version 2.1 of this paper, which will address any comments,
 
 %\Urlmuskip=0mu plus 1mu\relax
 
-\bibliographystyle{plainnat}
+%\bibliographystyle{plainnat}
 
 \begin{flushleft}
 \bibliography{fim4r}
@@ -1118,7 +1120,7 @@ User requirements for the INAF-CTA AAI have been elicited first identifying the 
 
 The INAF-CTA AAI provides functionalities enforcing the protection of CTA resources and digital assets by means of a role based authorisation allowing both a federated  authentication, based on eduGAIN inter-federation, or a centralised CTA SAML authentication service. An attribute authority is also provided in order to allow a role based  authorisation based on a set of attributes managed and agreed at consortium level. This AA infrastructure offers a proper environment  for enforcing accountability  allowing  maintenance and audit of logs for relevant events.
 
-The current implementation\cite{costa-jgc}  (see Figure \ref{fig:ctaaai} of the CTA Authentication and Authorization Infrastructure provisions more than 1000  consortium SAML identities and is releasing a persistent and non-reassignable ID as requested by CTA user requirements. 
+The current implementation\citep*{costa-jgc}  (see Figure \ref{fig:ctaaai} of the CTA Authentication and Authorization Infrastructure provisions more than 1000  consortium SAML identities and is releasing a persistent and non-reassignable ID as requested by CTA user requirements. 
 
 \begin{figure}[ht!]
   \centering
