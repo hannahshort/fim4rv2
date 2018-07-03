@@ -1,219 +1,267 @@
-\begin{thebibliography}{10}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{DOI }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{FIM4Rv1:2012}
-\bibinfo{author}{Broeder, D.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Federated identity management for
-  research collaborations}}.
-\newblock {\emph{\JournalTitle{CERN}}}  (\bibinfo{year}{2012}).
-\newblock \bibinfo{note}{\url{https://cds.cern.ch/record/1442597/}}.
+\bibitem[Broeder et~al.(2012)Broeder, Jones, Kelsey, Kershaw, Lüders, Lyall,
+  Nyrönen, Wartel, and Weyer]{FIM4Rv1:2012}
+Daan Broeder, Bob Jones, David Kelsey, Philip Kershaw, Stefan Lüders, Andrew
+  Lyall, Tommi Nyrönen, Romain Wartel, and Heinz~J Weyer.
+\newblock {Federated Identity Management for Research Collaborations}.
+\newblock \penalty0 (CERN-OPEN-2012-006), April 2012.
+\newblock \url{https://cds.cern.ch/record/1442597/}.
 
-\bibitem{refeds}
-\bibinfo{title}{{REFEDS}}.
-\newblock \bibinfo{howpublished}{\url{https://refeds.org/}}.
+\bibitem[ref(2018)]{refeds}
+{REFEDS}.
+\newblock \url{https://refeds.org/}, 2018.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{GN4}
-\bibinfo{title}{{GÉANT Project (GN4-1)}}.
+\bibitem[GN4()]{GN4}
+{GÉANT Project (GN4-1)}.
+\newblock \url{https://www.geant.org/Projects/GEANT_Project_GN4-1}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[aar(2018{\natexlab{a}})]{aarc}
+{Authentication and Authorisation for Research and Collaboration, AARC}.
+\newblock \url{https://aarc-project.eu/}, 2018{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[fim()]{fim4rweb}
+{Federated Identity Management for Research, FIM4R}.
+\newblock \url{https://fim4r.org/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[edu(2018)]{edugain}
+{eduGAIN – enabling worldwide access}.
+\newblock \url{https://edugain.org/}, 2018.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[orc()]{orcid}
+{ORCID}.
+\newblock \url{https://orcid.org/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[oid(2018{\natexlab{a}})]{oidc}
+{OpenID Connect}.
+\newblock \url{http://openid.net/connect/}, 2018{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[moo()]{moonshot}
+{Moonshot Wiki}.
+\newblock \url{https://wiki.moonshot.ja.net/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[oid(2018{\natexlab{b}})]{oidcfed}
+{OpenID Connect Federation 1.0 - draft 04}.
+\newblock \url{https://openid.net/specs/openid-connect-federation-1_0.html},
+  2018{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[GDP()]{GDPR:2016}
+Regulation ({EU}) 2016/679 of the european parliament and of the council of 27
+  april 2016.
+\newblock \url
+  {https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[eug()]{eugdpr}
+{EU GDPR Information Portal.}
+\newblock \url{https://www.eugdpr.org/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[ass()]{assessdp}
+{Assessment of DP Legislation Implications - Géant.}
 \newblock
-  \bibinfo{howpublished}{\url{https://www.geant.org/Projects/GEANT_Project_GN4-1}}.
+  \url{https://www.geant.org/Projects/GEANT_Project_GN4/deliverables/M9-2_Assessment-of-DP-Legislation-Implications.pdf}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{aarc}
-\bibinfo{title}{{Authentication and Authorisation for Research and
-  Collaboration, AARC}}.
-\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/}}.
+\bibitem[att()]{attributerelease}
+{Guidance on justification for attribute release for RandS.}
+\newblock \url{https://wiki.refeds.org/pages/viewpage.action?pageId=4194359}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{fim4rweb}
-\bibinfo{title}{{Federated Identity Management for Research, FIM4R}}.
-\newblock \bibinfo{howpublished}{\url{https://fim4r.org/}}.
+\bibitem[bas()]{baseline}
+{Baseline Expectations for Trust in Federation - InCommon.}
+\newblock \url{https://www.incommon.org/federation/baseline/}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{orcid}
-\bibinfo{title}{{ORCID}}.
-\newblock \bibinfo{howpublished}{\url{https://orcid.org/}}.
-
-\bibitem{oidc}
-\bibinfo{title}{{OpenID Connect | OpenID.}}
-\newblock \bibinfo{howpublished}{\url{http://openid.net/connect/}}.
-
-\bibitem{moonshot}
-\bibinfo{title}{{Moonshot Wiki: Home - Home.}}
-\newblock \bibinfo{howpublished}{\url{https://wiki.moonshot.ja.net/}}.
-
-\bibitem{oidcfed}
-\bibinfo{title}{{OpenID Connect Federation 1.0 - draft 04.}}
+\bibitem[dpc()]{dpcoco}
+{Data Protection Code of Conduct Home - REFEDS wiki.}
 \newblock
-  \bibinfo{howpublished}{\url{https://openid.net/specs/openid-connect-federation-1_0.html}}.
+  \url{https://wiki.refeds.org/display/CODE/Data+Protection+Code+of+Conduct+Home}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{GDPR:2016}
-\bibinfo{title}{Regulation ({EU}) 2016/679 of the european parliament and of
-  the council of 27 april 2016}.
-\newblock \bibinfo{howpublished}{\url
-  {https://ec.europa.eu/info/files/regulation-eu-2016-679-protection-natural-persons-regard-processing-personal-data-and-free-movement-such-data_en}}.
+\bibitem[sir()]{sirtfi}
+{Security Incident Response Framework for Federated Identity, Sirtfi}.
+\newblock \url{https://refeds.org/sirtfi}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{eugdpr}
-\bibinfo{title}{{EU GDPR Information Portal.}}
-\newblock \bibinfo{howpublished}{\url{https://www.eugdpr.org/}}.
+\bibitem[aar(2018{\natexlab{b}})]{aarcbpa}
+{AARC Blueprint Architecture}.
+\newblock \url{https://aarc-project.eu/architecture/}, 2018{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{assessdp}
-\bibinfo{title}{{Assessment of DP Legislation Implications - Géant.}}
+\bibitem[aar()]{aarcguidelines}
+{Guidelines - AARC project.}
+\newblock \url{https://aarc-project.eu/guidelines/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[rns(2018)]{rns}
+{Research and Scholarship - REFEDS}.
+\newblock \url{https://refeds.org/research-and-scholarship}, 2018.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[dar(2018)]{dariah}
+{DARIAH | Digital Research Infrastructure for the Arts and Humanities.}
+\newblock \url{https://www.dariah.eu/}, 2018.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[dar(2017)]{dariahaai}
+{DARIAH AAI Documentation}.
 \newblock
-  \bibinfo{howpublished}{\url{https://www.geant.org/Projects/GEANT_Project_GN4/deliverables/M9-2_Assessment-of-DP-Legislation-Implications.pdf}}.
+  \url{https://wiki.de.dariah.eu/display/publicde/DARIAH+AAI+Documentation},
+  2017.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{attributerelease}
-\bibinfo{title}{{Guidance on justification for attribute release for RandS.}}
+\bibitem[esg()]{esgf}
+{ESGF Home Page}.
+\newblock \url{https://esgf.llnl.gov/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[cta()]{cta-intro}
+{Introducing the CTA concept - Science Direct.}
 \newblock
-  \bibinfo{howpublished}{\url{https://wiki.refeds.org/pages/viewpage.action?pageId=4194359}}.
+  \url{https://www.sciencedirect.com/science/article/pii/S0927650513000169}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{baseline}
-\bibinfo{title}{{Baseline Expectations for Trust in Federation - InCommon.}}
+\bibitem[{Lamanna} et~al.(2015){Lamanna}, {Antonelli}, {Contreras},
+  {Kn{\"o}dlseder}, {Kosack}, {Neyroud}, {Aboudan}, {Arrabito}, {Barbier},
+  {Bastieri}, {Boisson}, {Brau-Nogu{\'e}}, {Bregeon}, {Bulgarelli}, {Carosi},
+  {Costa}, {De Cesare}, {de los Reyes}, {Fioretti}, {Gallozzi}, {Jacquemier},
+  {Khelifi}, {Kocot}, {Lombardi}, {Lucarelli}, {Lyard}, {Maier}, {Massimino},
+  {Osborne}, {Perri}, {Rico}, {Sanchez}, {Satalecka}, {Siejkowski},
+  {Stolarczyk}, {Szepieniec}, {Testa}, {Walter}, {Ward}, {Zoll}, and
+  {Consortium}]{cta-data-man}
+G.~{Lamanna}, L.~A. {Antonelli}, J.~L. {Contreras}, J.~{Kn{\"o}dlseder},
+  K.~{Kosack}, N.~{Neyroud}, A.~{Aboudan}, L.~{Arrabito}, C.~{Barbier},
+  D.~{Bastieri}, C.~{Boisson}, S.~{Brau-Nogu{\'e}}, J.~{Bregeon},
+  A.~{Bulgarelli}, A.~{Carosi}, A.~{Costa}, G.~{De Cesare}, R.~{de los Reyes},
+  V.~{Fioretti}, S.~{Gallozzi}, J.~{Jacquemier}, B.~{Khelifi}, J.~{Kocot},
+  S.~{Lombardi}, F.~{Lucarelli}, E.~{Lyard}, G.~{Maier}, P.~{Massimino}, J.~P.
+  {Osborne}, M.~{Perri}, J.~{Rico}, D.~A. {Sanchez}, K.~{Satalecka},
+  H.~{Siejkowski}, T.~{Stolarczyk}, T.~{Szepieniec}, V.~{Testa}, R.~{Walter},
+  J.~E. {Ward}, A.~{Zoll}, and C.~{Consortium}.
+\newblock {Cherenkov Telescope Array Data Management}.
+\newblock In A.~S. {Borisov}, V.~G. {Denisova}, Z.~M. {Guseva}, E.~A.
+  {Kanevskaya}, M.~G. {Kogan}, A.~E. {Morozov}, V.~S. {Puchkov}, S.~E.
+  {Pyatovsky}, G.~P. {Shoziyoev}, M.~D. {Smirnova}, A.~V. {Vargasov}, V.~I.
+  {Galkin}, S.~I. {Nazarov}, and R.~A. {Mukhamedshin}, editors, \emph{34th
+  International Cosmic Ray Conference (ICRC2015)}, volume~34 of
+  \emph{International Cosmic Ray Conference}, page 947, July 2015.
+\newblock \url{https://doi.org/10.22323/1.236.0947}.
+
+\bibitem[Costa et~al.(2015)Costa, Massimino, Bandieramonte, Becciani, Krokos,
+  Pistagna, Sciacca, and Vitello]{costa-jgc}
+Alessandro Costa, Pietro Massimino, Marilena Bandieramonte, Ugo Becciani, Mel
+  Krokos, Costantino Pistagna, Simone Riggiand~Eva Sciacca, and Fabio Vitello.
+\newblock An innovative science gateway for the cherenkov telescope array.
+\newblock \emph{J. Grid Comput.}, 13\penalty0 (4), 2015.
+\newblock \url{https://doi.org/10.1007/s10723-015-9330-2}.
+
+\bibitem[Costa et~al.(2018)Costa, Sciacca, Vitello, Becciani, Massimino, Riggi,
+  and Sanchez]{COSTA2018}
+Alessandro Costa, Eva Sciacca, Fabio Vitello, Ugo Becciani, Pietro Massimino,
+  Simone Riggi, and David Sanchez.
+\newblock An integrated workspace for the cherenkov telescope array.
+\newblock \emph{Future Generation Computer Systems}, 2018.
+\newblock \url{https://doi.org/10.1016/j.future.2018.04.009}.
+
+\bibitem[hns()]{hnscicloud}
+{HNSciCloud}.
+\newblock \url{https://www.hnscicloud.eu/.}
+\newblock (accessed: 05.06.2018).
+
+\bibitem[mad()]{madrigal}
+{Madrigal Database}.
+\newblock \url{https://www.eiscat.se/madrigal/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[ls-()]{ls-ref}
+{CSC HPC Services - CERN Indico}.
 \newblock
-  \bibinfo{howpublished}{\url{https://www.incommon.org/federation/baseline/}}.
+  \url{https://indico.cern.ch/event/647693/contributions/2693208/attachments/1525943/2385987/20170912_ELIXIR_Nyronen_for_FIM4R.pdf}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{dpcoco}
-\bibinfo{title}{{Data Protection Code of Conduct Home - REFEDS wiki.}}
+\bibitem[eli()]{elixir-aai}
+{ELIXIR AAI documentation - ELIXIR Europe}.
+\newblock \url{https://www.elixir-europe.org/services/compute/aai}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[Brandizi et~al.(2017)Brandizi, Melnichuk, Bild, Kohlmayer,
+  Rodriguez-Castro, Spengler, Kuhn, Kuchinke, Ohmann, Mustonen, Linden,
+  Nyr{\"o}nen, Lappalainen, Brazma, and Sarkans]{Brandizi2017}
+Marco Brandizi, Olga Melnichuk, Raffael Bild, Florian Kohlmayer, Benedicto
+  Rodriguez-Castro, Helmut Spengler, Klaus~A. Kuhn, Wolfgang Kuchinke,
+  Christian Ohmann, Timo Mustonen, Mikael Linden, Tommi Nyr{\"o}nen, Ilkka
+  Lappalainen, Alvis Brazma, and Ugis Sarkans.
+\newblock Orchestrating differential data access for translational research: a
+  pilot implementation.
+\newblock \emph{BMC Medical Informatics and Decision Making}, 17\penalty0
+  (1):\penalty0 30, Mar 2017.
+\newblock ISSN 1472-6947.
+\newblock \url{https://doi.org/10.1186/s12911-017-0424-6}.
+
+\bibitem[Linden et~al.(2013)Linden, (CSC), and Institute)]{Linden}
+Mikael Linden, Tommi~Nyrönen (CSC), and Ilkka Lappalainen (The
+  EMBL-European~Bioinformatics Institute).
+\newblock {Resource Entitlement Management System}.
+\newblock \emph{Selected papers of TNC2013 Conference}, August 2013.
+\newblock \url{http://www.terena.org/publications/tnc2013-proceedings/}.
+
+\bibitem[Dyke et~al.(2016)Dyke, Kirby, Shabani, Thorogood, Kato, and
+  Knoppers]{dyke}
+Stephanie O~M Dyke, Emily Kirby, Mahsa Shabani, Adrian Thorogood, Kazuto Kato,
+  and Bartha~M Knoppers.
+\newblock Registered access: a `triple-a'approach.
+\newblock \emph{European Journal Of Human Genetics}, 24:\penalty0 1676 EP --,
+  09 2016.
+\newblock \url{http://dx.doi.org/10.1038/ejhg.2016.115}.
+
+\bibitem[ga4()]{ga4gh}
+{Global Alliance for Genomics and Health (GA4GH)}.
+\newblock \url{https://www.ga4gh.org/}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[van Uytvanck et~al.(2017)van Uytvanck, Elbers, and Moreira]{vanuyt}
+D.~van Uytvanck, W.~Elbers, and A.~Moreira.
+\newblock {D2.7 Service Provider Federation Full Extension}.
+\newblock \emph{CLARIN-PLUS Deliverables}, 2017.
+\newblock \url{https://office.clarin.eu/v/CE-2017-1014-CLARINPLUS-D2_7.pdf}.
+
+\bibitem[Mišutka(2016)]{Mistuka}
+J~Mišutka.
+\newblock {D2.2 Robust SPF 1: workflow and monitoring}.
+\newblock \emph{CLARIN-PLUS Deliverables}, 2016.
+\newblock \url{https://office.clarin.eu/v/CE-2016-0809-CLARINPLUS-D2_2.pdf}.
+
+\bibitem[vam(2012{\natexlab{a}})]{vamdc-standards}
+{Query language [v 12.07] [r 12.07]}.
+\newblock \url{http://vamdc.eu/documents/standards/queryLanguage/index.html},
+  2012{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
+
+\bibitem[vam(2012{\natexlab{b}})]{vamdc-ref}
+{VAMDC-XSAMS reference guide [v 1.0] [r 12.07]}.
 \newblock
-  \bibinfo{howpublished}{\url{https://wiki.refeds.org/display/CODE/Data+Protection+Code+of+Conduct+Home}}.
+  \url{http://vamdc.eu/documents/standards/dataModel/vamdcxsams/index.html},
+  2012{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem{sirtfi}
-\bibinfo{title}{{Security Incident Response Framework for Federated Identity,
-  Sirtfi}}.
-\newblock \bibinfo{howpublished}{\url{https://refeds.org/sirtfi}}.
-
-\bibitem{aarcbpa}
-\bibinfo{title}{{AARC Blueprint Architecture – AARC.}}
-\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/architecture/}}.
-
-\bibitem{aarcguidelines}
-\bibinfo{title}{{Guidelines - AARC project.}}
-\newblock \bibinfo{howpublished}{\url{https://aarc-project.eu/guidelines/}}.
-
-\bibitem{rns}
-\bibinfo{title}{{Research and Scholarship - REFEDS}}.
-\newblock
-  \bibinfo{howpublished}{\url{https://refeds.org/research-and-scholarship}}.
-
-\bibitem{dariah}
-\bibinfo{title}{{DARIAH | Digital Research Infrastructure for the Arts and
-  Humanities.}}
-\newblock \bibinfo{howpublished}{\url{https://www.dariah.eu/}}.
-
-\bibitem{dariahaai}
-\bibinfo{title}{{DARIAH AAI Documentation - DARIAH-DE public - DARIAH Wiki.}}
-\newblock
-  \bibinfo{howpublished}{\url{https://wiki.de.dariah.eu/display/publicde/DARIAH+AAI+Documentation}}.
-
-\bibitem{esgf}
-\bibinfo{title}{{ESGF Home Page}}.
-\newblock \bibinfo{howpublished}{\url{https://esgf.llnl.gov/}}.
-
-\bibitem{cta-intro}
-\bibinfo{title}{{Introducing the CTA concept - Science Direct.}}
-\newblock
-  \bibinfo{howpublished}{\url{https://www.sciencedirect.com/science/article/pii/S0927650513000169}}.
-
-\bibitem{cta-data-man}
-\bibinfo{author}{{Lamanna}, G.} \emph{et~al.}
-\newblock \bibinfo{title}{{Cherenkov Telescope Array Data Management}}.
-\newblock In \bibinfo{editor}{{Borisov}, A.~S.} \emph{et~al.} (eds.)
-  \emph{\bibinfo{booktitle}{34th International Cosmic Ray Conference
-  (ICRC2015)}}, vol.~\bibinfo{volume}{34} of
-  \emph{\bibinfo{series}{International Cosmic Ray Conference}},
-  \bibinfo{pages}{947} (\bibinfo{year}{2015}).
-\newblock \eprint{1509.01012}.
-
-\bibitem{costa-jgc}
-\bibinfo{journal}{\bibinfo{author}{Costa, A.}}
-\newblock {\emph{\JournalTitle{J. Grid Comput.}}} \textbf{\bibinfo{volume}{13}}
-  (\bibinfo{year}{2015}).
-
-\bibitem{COSTA2018}
-\bibinfo{author}{Costa, A.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{An integrated workspace for the
-  cherenkov telescope array}}.
-\newblock {\emph{\JournalTitle{Future Generation Computer Systems}}}
-  (\bibinfo{year}{2018}).
-\newblock \doiprefix https://doi.org/10.1016/j.future.2018.04.009.
-
-\bibitem{hnscicloud}
-\bibinfo{title}{{HNSciCloud}}.
-\newblock \bibinfo{howpublished}{\url{https://www.hnscicloud.eu/.}}
-
-\bibitem{madrigal}
-\bibinfo{title}{{Madrigal Database}}.
-\newblock \bibinfo{howpublished}{\url{https://www.eiscat.se/madrigal/}}.
-
-\bibitem{ls-ref}
-\bibinfo{title}{{CSC HPC Services - CERN Indico}}.
-\newblock
-  \bibinfo{howpublished}{\url{https://indico.cern.ch/event/647693/contributions/2693208/attachments/1525943/2385987/20170912_ELIXIR_Nyronen_for_FIM4R.pdf}}.
-
-\bibitem{elixir-aai}
-\bibinfo{title}{{ELIXIR AAI documentation - ELIXIR Europe.}}
-\newblock
-  \bibinfo{howpublished}{\url{https://www.elixir-europe.org/services/compute/aai}}.
-
-\bibitem{Brandizi2017}
-\bibinfo{author}{Brandizi, M.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Orchestrating differential data
-  access for translational research: a pilot implementation}}.
-\newblock {\emph{\JournalTitle{BMC Medical Informatics and Decision Making}}}
-  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{30} (\bibinfo{year}{2017}).
-\newblock \doiprefix 10.1186/s12911-017-0424-6.
-
-\bibitem{Linden}
-\bibinfo{author}{Linden, M.}, \bibinfo{author}{(CSC), T.~N.} \&
-  \bibinfo{author}{Institute), I. L. T. E.-E.~B.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Resource Entitlement Management
-  System}}}.
-\newblock {\emph{\JournalTitle{Selected papers of TNC2013 Conference}}}
-  (\bibinfo{year}{2013}).
-
-\bibitem{dyke}
-\bibinfo{author}{Dyke, S. O.~M.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Registered access: a
-  `triple-a'approach}}.
-\newblock {\emph{\JournalTitle{European Journal Of Human Genetics}}}
-  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{1676 EP --}
-  (\bibinfo{year}{2016}).
-
-\bibitem{ga4gh}
-\bibinfo{title}{{Global Alliance for Genomics and Health (GA4GH)}}.
-\newblock \bibinfo{howpublished}{\url{https://www.ga4gh.org/}}.
-
-\bibitem{vanuyt}
-\bibinfo{author}{van Uytvanck, D.}, \bibinfo{author}{Elbers, W.} \&
-  \bibinfo{author}{Moreira, A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{D2.7 Service Provider Federation
-  Full Extension}}}.
-\newblock {\emph{\JournalTitle{CLARIN-PLUS Deliverables}}}
-  (\bibinfo{year}{2017}).
-
-\bibitem{Mistuka}
-\bibinfo{author}{Mišutka, J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{D2.2 Robust SPF 1: workflow and
-  monitoring}}}.
-\newblock {\emph{\JournalTitle{CLARIN-PLUS Deliverables}}}
-  (\bibinfo{year}{2016}).
-
-\bibitem{vamdc-standards}
-\bibinfo{title}{{Query language [v 12.07] [r 12.07] — VAMDC standards
-  documentation.}}
-\newblock
-  \bibinfo{howpublished}{\url{http://vamdc.eu/documents/standards/queryLanguage/index.html}}.
-
-\bibitem{vamdc-ref}
-\bibinfo{title}{{VAMDC-XSAMS reference guide [v 1.0] [r 12.07] — VAMDC
-  standards ....}}
-\newblock
-  \bibinfo{howpublished}{\url{http://vamdc.eu/documents/standards/dataModel/vamdcxsams/index.html}}.
-
-\bibitem{vamdc-home}
-\bibinfo{title}{{Welcome to the VAMDC portal!}}
-\newblock
-  \bibinfo{howpublished}{\url{https://portal.vamdc.eu/vamdc_portal/home.seam}}.
+\bibitem[vam(2018)]{vamdc-home}
+{The VAMDC portal}.
+\newblock \url{https://portal.vamdc.eu/vamdc_portal/home.seam}, 2018.
+\newblock (accessed: 05.06.2018).
 
 \end{thebibliography}
