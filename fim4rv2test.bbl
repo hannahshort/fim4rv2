@@ -9,105 +9,127 @@
   Nyrönen, Wartel, and Weyer]{FIM4Rv1:2012}
 Daan Broeder, Bob Jones, David Kelsey, Philip Kershaw, Stefan Lüders, Andrew
   Lyall, Tommi Nyrönen, Romain Wartel, and Heinz~J Weyer.
-\newblock Federated identity management for research collaborations.
-\newblock \emph{CERN}, 2012.
+\newblock {Federated Identity Management for Research Collaborations}.
+\newblock \penalty0 (CERN-OPEN-2012-006), April 2012.
 \newblock \url{https://cds.cern.ch/record/1442597/}.
 
-\bibitem[ref()]{refeds}
+\bibitem[ref(2018)]{refeds}
 {REFEDS}.
-\newblock \url{https://refeds.org/}.
+\newblock \url{https://refeds.org/}, 2018.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[GN4()]{GN4}
 {GÉANT Project (GN4-1)}.
 \newblock \url{https://www.geant.org/Projects/GEANT_Project_GN4-1}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[aar({\natexlab{a}})]{aarc}
+\bibitem[aar(2018{\natexlab{a}})]{aarc}
 {Authentication and Authorisation for Research and Collaboration, AARC}.
-\newblock \url{https://aarc-project.eu/}, {\natexlab{a}}.
+\newblock \url{https://aarc-project.eu/}, 2018{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[fim()]{fim4rweb}
 {Federated Identity Management for Research, FIM4R}.
 \newblock \url{https://fim4r.org/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[orc()]{orcid}
 {ORCID}.
 \newblock \url{https://orcid.org/}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[oid({\natexlab{a}})]{oidc}
-{OpenID Connect | OpenID.}
-\newblock \url{http://openid.net/connect/}, {\natexlab{a}}.
+\bibitem[oid(2018{\natexlab{a}})]{oidc}
+{OpenID Connect}.
+\newblock \url{http://openid.net/connect/}, 2018{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[moo()]{moonshot}
-{Moonshot Wiki: Home - Home.}
+{Moonshot Wiki}.
 \newblock \url{https://wiki.moonshot.ja.net/}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[oid({\natexlab{b}})]{oidcfed}
-{OpenID Connect Federation 1.0 - draft 04.}
+\bibitem[oid(2018{\natexlab{b}})]{oidcfed}
+{OpenID Connect Federation 1.0 - draft 04}.
 \newblock \url{https://openid.net/specs/openid-connect-federation-1_0.html},
-  {\natexlab{b}}.
+  2018{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[GDP()]{GDPR:2016}
 Regulation ({EU}) 2016/679 of the european parliament and of the council of 27
   april 2016.
 \newblock \url
-  {https://ec.europa.eu/info/files/regulation-eu-2016-679-protection-natural-persons-regard-processing-personal-data-and-free-movement-such-data_en}.
+  {https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[eug()]{eugdpr}
 {EU GDPR Information Portal.}
 \newblock \url{https://www.eugdpr.org/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[ass()]{assessdp}
 {Assessment of DP Legislation Implications - Géant.}
 \newblock
   \url{https://www.geant.org/Projects/GEANT_Project_GN4/deliverables/M9-2_Assessment-of-DP-Legislation-Implications.pdf}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[att()]{attributerelease}
 {Guidance on justification for attribute release for RandS.}
 \newblock \url{https://wiki.refeds.org/pages/viewpage.action?pageId=4194359}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[bas()]{baseline}
 {Baseline Expectations for Trust in Federation - InCommon.}
 \newblock \url{https://www.incommon.org/federation/baseline/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[dpc()]{dpcoco}
 {Data Protection Code of Conduct Home - REFEDS wiki.}
 \newblock
   \url{https://wiki.refeds.org/display/CODE/Data+Protection+Code+of+Conduct+Home}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[sir()]{sirtfi}
 {Security Incident Response Framework for Federated Identity, Sirtfi}.
 \newblock \url{https://refeds.org/sirtfi}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[aar({\natexlab{b}})]{aarcbpa}
-{AARC Blueprint Architecture – AARC.}
-\newblock \url{https://aarc-project.eu/architecture/}, {\natexlab{b}}.
+\bibitem[aar(2018{\natexlab{b}})]{aarcbpa}
+{AARC Blueprint Architecture}.
+\newblock \url{https://aarc-project.eu/architecture/}, 2018{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[aar({\natexlab{c}})]{aarcguidelines}
+\bibitem[aar()]{aarcguidelines}
 {Guidelines - AARC project.}
-\newblock \url{https://aarc-project.eu/guidelines/}, {\natexlab{c}}.
+\newblock \url{https://aarc-project.eu/guidelines/}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[rns()]{rns}
+\bibitem[rns(2018)]{rns}
 {Research and Scholarship - REFEDS}.
-\newblock \url{https://refeds.org/research-and-scholarship}.
+\newblock \url{https://refeds.org/research-and-scholarship}, 2018.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[dar({\natexlab{a}})]{dariah}
+\bibitem[dar(2018)]{dariah}
 {DARIAH | Digital Research Infrastructure for the Arts and Humanities.}
-\newblock \url{https://www.dariah.eu/}, {\natexlab{a}}.
+\newblock \url{https://www.dariah.eu/}, 2018.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[dar({\natexlab{b}})]{dariahaai}
-{DARIAH AAI Documentation - DARIAH-DE public - DARIAH Wiki.}
+\bibitem[dar(2017)]{dariahaai}
+{DARIAH AAI Documentation}.
 \newblock
   \url{https://wiki.de.dariah.eu/display/publicde/DARIAH+AAI+Documentation},
-  {\natexlab{b}}.
+  2017.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[esg()]{esgf}
 {ESGF Home Page}.
 \newblock \url{https://esgf.llnl.gov/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[cta()]{cta-intro}
 {Introducing the CTA concept - Science Direct.}
 \newblock
   \url{https://www.sciencedirect.com/science/article/pii/S0927650513000169}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[{Lamanna} et~al.(2015){Lamanna}, {Antonelli}, {Contreras},
   {Kn{\"o}dlseder}, {Kosack}, {Neyroud}, {Aboudan}, {Arrabito}, {Barbier},
@@ -133,6 +155,7 @@ G.~{Lamanna}, L.~A. {Antonelli}, J.~L. {Contreras}, J.~{Kn{\"o}dlseder},
   {Galkin}, S.~I. {Nazarov}, and R.~A. {Mukhamedshin}, editors, \emph{34th
   International Cosmic Ray Conference (ICRC2015)}, volume~34 of
   \emph{International Cosmic Ray Conference}, page 947, July 2015.
+\newblock \url{https://doi.org/10.22323/1.236.0947}.
 
 \bibitem[Costa et~al.(2015)Costa, Massimino, Bandieramonte, Becciani, Krokos,
   Pistagna, Sciacca, and Vitello]{costa-jgc}
@@ -140,6 +163,7 @@ Alessandro Costa, Pietro Massimino, Marilena Bandieramonte, Ugo Becciani, Mel
   Krokos, Costantino Pistagna, Simone Riggiand~Eva Sciacca, and Fabio Vitello.
 \newblock An innovative science gateway for the cherenkov telescope array.
 \newblock \emph{J. Grid Comput.}, 13\penalty0 (4), 2015.
+\newblock \url{https://doi.org/10.1007/s10723-015-9330-2}.
 
 \bibitem[Costa et~al.(2018)Costa, Sciacca, Vitello, Becciani, Massimino, Riggi,
   and Sanchez]{COSTA2018}
@@ -152,19 +176,23 @@ Alessandro Costa, Eva Sciacca, Fabio Vitello, Ugo Becciani, Pietro Massimino,
 \bibitem[hns()]{hnscicloud}
 {HNSciCloud}.
 \newblock \url{https://www.hnscicloud.eu/.}
+\newblock (accessed: 05.06.2018).
 
 \bibitem[mad()]{madrigal}
 {Madrigal Database}.
 \newblock \url{https://www.eiscat.se/madrigal/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[ls-()]{ls-ref}
 {CSC HPC Services - CERN Indico}.
 \newblock
   \url{https://indico.cern.ch/event/647693/contributions/2693208/attachments/1525943/2385987/20170912_ELIXIR_Nyronen_for_FIM4R.pdf}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[eli()]{elixir-aai}
-{ELIXIR AAI documentation - ELIXIR Europe.}
+{ELIXIR AAI documentation - ELIXIR Europe}.
 \newblock \url{https://www.elixir-europe.org/services/compute/aai}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[Brandizi et~al.(2017)Brandizi, Melnichuk, Bild, Kohlmayer,
   Rodriguez-Castro, Spengler, Kuhn, Kuchinke, Ohmann, Mustonen, Linden,
@@ -178,15 +206,14 @@ Marco Brandizi, Olga Melnichuk, Raffael Bild, Florian Kohlmayer, Benedicto
 \newblock \emph{BMC Medical Informatics and Decision Making}, 17\penalty0
   (1):\penalty0 30, Mar 2017.
 \newblock ISSN 1472-6947.
-\newblock \doi{10.1186/s12911-017-0424-6}.
-\newblock URL \url{https://doi.org/10.1186/s12911-017-0424-6}.
+\newblock \url{https://doi.org/10.1186/s12911-017-0424-6}.
 
 \bibitem[Linden et~al.(2013)Linden, (CSC), and Institute)]{Linden}
 Mikael Linden, Tommi~Nyrönen (CSC), and Ilkka Lappalainen (The
   EMBL-European~Bioinformatics Institute).
 \newblock {Resource Entitlement Management System}.
 \newblock \emph{Selected papers of TNC2013 Conference}, August 2013.
-\newblock URL \url{http://www.terena.org/publications/tnc2013-proceedings/}.
+\newblock \url{http://www.terena.org/publications/tnc2013-proceedings/}.
 
 \bibitem[Dyke et~al.(2016)Dyke, Kirby, Shabani, Thorogood, Kato, and
   Knoppers]{dyke}
@@ -195,39 +222,41 @@ Stephanie O~M Dyke, Emily Kirby, Mahsa Shabani, Adrian Thorogood, Kazuto Kato,
 \newblock Registered access: a `triple-a'approach.
 \newblock \emph{European Journal Of Human Genetics}, 24:\penalty0 1676 EP --,
   09 2016.
-\newblock URL \url{http://dx.doi.org/10.1038/ejhg.2016.115}.
+\newblock \url{http://dx.doi.org/10.1038/ejhg.2016.115}.
 
 \bibitem[ga4()]{ga4gh}
 {Global Alliance for Genomics and Health (GA4GH)}.
 \newblock \url{https://www.ga4gh.org/}.
+\newblock (accessed: 05.06.2018).
 
 \bibitem[van Uytvanck et~al.(2017)van Uytvanck, Elbers, and Moreira]{vanuyt}
 D.~van Uytvanck, W.~Elbers, and A.~Moreira.
 \newblock {D2.7 Service Provider Federation Full Extension}.
 \newblock \emph{CLARIN-PLUS Deliverables}, 2017.
-\newblock URL
-  \url{https://office.clarin.eu/v/CE-2017-1014-CLARINPLUS-D2_7.pdf}.
+\newblock \url{https://office.clarin.eu/v/CE-2017-1014-CLARINPLUS-D2_7.pdf}.
 
 \bibitem[Mišutka(2016)]{Mistuka}
 J~Mišutka.
 \newblock {D2.2 Robust SPF 1: workflow and monitoring}.
 \newblock \emph{CLARIN-PLUS Deliverables}, 2016.
-\newblock URL
-  \url{https://office.clarin.eu/v/CE-2016-0809-CLARINPLUS-D2_2.pdf}.
+\newblock \url{https://office.clarin.eu/v/CE-2016-0809-CLARINPLUS-D2_2.pdf}.
 
-\bibitem[vam({\natexlab{a}})]{vamdc-standards}
-{Query language [v 12.07] [r 12.07] — VAMDC standards documentation.}
+\bibitem[vam(2012{\natexlab{a}})]{vamdc-standards}
+{Query language [v 12.07] [r 12.07]}.
 \newblock \url{http://vamdc.eu/documents/standards/queryLanguage/index.html},
-  {\natexlab{a}}.
+  2012{\natexlab{a}}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[vam({\natexlab{b}})]{vamdc-ref}
-{VAMDC-XSAMS reference guide [v 1.0] [r 12.07] — VAMDC standards ....}
+\bibitem[vam(2012{\natexlab{b}})]{vamdc-ref}
+{VAMDC-XSAMS reference guide [v 1.0] [r 12.07]}.
 \newblock
   \url{http://vamdc.eu/documents/standards/dataModel/vamdcxsams/index.html},
-  {\natexlab{b}}.
+  2012{\natexlab{b}}.
+\newblock (accessed: 05.06.2018).
 
-\bibitem[vam({\natexlab{c}})]{vamdc-home}
-{Welcome to the VAMDC portal!}
-\newblock \url{https://portal.vamdc.eu/vamdc_portal/home.seam}, {\natexlab{c}}.
+\bibitem[vam(2018)]{vamdc-home}
+{The VAMDC portal!}
+\newblock \url{https://portal.vamdc.eu/vamdc_portal/home.seam}, 2018.
+\newblock (accessed: 05.06.2018).
 
 \end{thebibliography}

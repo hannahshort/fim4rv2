@@ -1,14 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: fim4rv2test.aux
 The style file: unsrtnat.bst
 Database file #1: fim4r.bib
-Warning--empty year in refeds
+Warning--empty journal in FIM4Rv1:2012
+Warning--there's a number but no volume in FIM4Rv1:2012
 Warning--empty year in GN4
-Warning--empty year in aarc
 Warning--empty year in fim4rweb
 Warning--empty year in orcid
-Warning--empty year in oidc
 Warning--empty year in moonshot
-Warning--empty year in oidcfed
 Warning--empty year in GDPR:2016
 Warning--empty year in eugdpr
 Warning--empty year in assessdp
@@ -16,11 +14,7 @@ Warning--empty year in attributerelease
 Warning--empty year in baseline
 Warning--empty year in dpcoco
 Warning--empty year in sirtfi
-Warning--empty year in aarcbpa
 Warning--empty year in aarcguidelines
-Warning--empty year in rns
-Warning--empty year in dariah
-Warning--empty year in dariahaai
 Warning--empty year in esgf
 Warning--empty year in cta-intro
 Warning--empty year in hnscicloud
@@ -28,7 +22,4 @@ Warning--empty year in madrigal
 Warning--empty year in ls-ref
 Warning--empty year in elixir-aai
 Warning--empty year in ga4gh
-Warning--empty year in vamdc-standards
-Warning--empty year in vamdc-ref
-Warning--empty year in vamdc-home
-(There were 30 warnings)
+(There were 21 warnings)

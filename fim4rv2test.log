@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.2)  2 JUL 2018 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.2)  3 JUL 2018 12:04
 entering extended mode
 **./fim4rv2test.tex
 (fim4rv2test.tex
@@ -2021,14 +2021,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[20]
-Overfull \hbox (201.30313pt too wide) in paragraph at lines 50--54
-\OT1/pcr/m/n/10 regulation-[]eu-[]2016-[]679-[]protection-[]natural-[]persons-[
-]regard-[]processing-[]personal-[]data-[]and-[]free-[]movement-[]such-[]data _ 
-
- []
-
-[21]) [22] [23] (fim4rv2-authors-appendix.tex
+[20] [21]) [22] [23] (fim4rv2-authors-appendix.tex
 Overfull \hbox (7.32079pt too wide) in alignment at lines 10--20
  [] [] [] [] 
  []
@@ -2049,18 +2042,18 @@ Overfull \hbox (7.32079pt too wide) in alignment at lines 255--260
  []
 
 [24]) [25] [26]
-<eo.png, id=664, 636.3775pt x 321.2pt>
+<eo.png, id=665, 636.3775pt x 321.2pt>
 File: eo.png Graphic file (type png)
 <use eo.png>
 Package pdftex.def Info: eo.png  used on input line 1078.
 (pdftex.def)             Requested size: 338.58632pt x 170.89194pt.
  [27] [28 <./eo.png>]
-<cta-table.png, id=678, 350.30875pt x 255.95625pt>
+<cta-table.png, id=679, 350.30875pt x 255.95625pt>
 File: cta-table.png Graphic file (type png)
 <use cta-table.png>
 Package pdftex.def Info: cta-table.png  used on input line 1116.
 (pdftex.def)             Requested size: 338.58632pt x 247.40631pt.
-<cta-aai.png, id=681, 499.8675pt x 224.84pt>
+<cta-aai.png, id=682, 499.8675pt x 224.84pt>
 File: cta-aai.png Graphic file (type png)
 <use cta-aai.png>
 Package pdftex.def Info: cta-aai.png  used on input line 1127.
@@ -2071,12 +2064,12 @@ Underfull \hbox (badness 4266) in paragraph at lines 1256--1256
  []
 
 [34] [35] [36] [37] [38]
-<ska-domain.png, id=745, 630.355pt x 306.14375pt>
+<ska-domain.png, id=746, 630.355pt x 306.14375pt>
 File: ska-domain.png Graphic file (type png)
 <use ska-domain.png>
 Package pdftex.def Info: ska-domain.png  used on input line 1412.
 (pdftex.def)             Requested size: 338.58632pt x 164.4416pt.
-<ska-auth.png, id=746, 489.83pt x 348.30125pt>
+<ska-auth.png, id=747, 489.83pt x 348.30125pt>
 File: ska-auth.png Graphic file (type png)
 <use ska-auth.png>
 Package pdftex.def Info: ska-auth.png  used on input line 1419.
@@ -2100,8 +2093,8 @@ Package rerunfilecheck Info: File `fim4rv2test.out' has not changed.
 ### bottom level 
 Here is how much of TeX's memory you used:
  19567 strings out of 492973
- 370422 string characters out of 3126693
- 604730 words of memory out of 3000000
+ 370842 string characters out of 3126693
+ 604786 words of memory out of 3000000
  22794 multiletter control sequences out of 15000+200000
  71060 words of font info for 268 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2121,9 +2114,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/dpk87
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/d
 pk87/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Use
 rs/dpk87/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fim4rv2test.pdf (41 pages, 1989150 bytes).
+Output written on fim4rv2test.pdf (41 pages, 1989255 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
+ 839 PDF objects out of 1000 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
  55876 words of extra memory for PDF output out of 61914 (max. 10000000)
 
