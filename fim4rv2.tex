@@ -1,3 +1,8 @@
+% replace deault bibliography style
+\RequirePackage{etoolbox}
+\patchcmd{\bibliographystyle}{#1}{unsrtnat}{}{}
+
+
 \documentclass[fleqn,10pt]{wlscirep} 
 %\documentclass[10pt,a4paper]{article}
 \usepackage{array,longtable,multirow}
@@ -22,9 +27,9 @@
 
 %\usepackage[hidelinks]{hyperref}
 %\hypersetup{breaklinks=true}
-\usepackage[sort,square,numbers,longnamesfirst]{natbib}
+\usepackage[sort&compress,square,numbers,longnamesfirst]{natbib}
 %\usepackage[hyphens]{url}
-\usepackage{breakurl}
+%\usepackage{breakurl}
 
 \title{Federated Identity Management for Research Collaborations}
 \date{\today}
@@ -53,7 +58,7 @@ This white-paper expresses common requirements of Research Communities seeking t
 \noindent \\ \\ \\ \\ {\textbf{E-mail: contact@fim4r.org} \\  \\ For the ORCID{\textsuperscript{\textregistered}} identifiers and author affiliations of the ``Federated Identity Management for Research" collaboration to their various Research Communities and e-Infrastructures, see Appendix \ref{Authors}.
 \newline
 \newline
-\noindent {\textbf{Document details} - Version: 2.0.  Date: 27 June 2018 \\ doi: 10.5281/zenodo.1296032 }
+\noindent {\textbf{Document details} - Version: 2.0.  Date: 3 July 2018 \\ doi: 10.5281/zenodo.1296032 }
 \newline
 
 \vfill
@@ -64,7 +69,7 @@ This white-paper expresses common requirements of Research Communities seeking t
 \tableofcontents
 \newpage
 \section{Introduction}
-``Federated identity management (FIM) is an arrangement that can be made among multiple organisations that lets subscribers use the same identification data to obtain access to the secured resources of all organisations in the group. Identity federation offers economic advantages, as well as convenience, to organisations and their users. For example, multiple institutions can share a single community application, with resultant cost savings and consolidation of resources. In order for FIM to be effective, the partners must have a sense of mutual trust."\citep*{FIM4Rv1:2012}\footnote{For any particular organisation the term ``resources" may refer to any combination of data, compute services, and research instruments.} 
+``Federated identity management (FIM) is an arrangement that can be made among multiple organisations that lets subscribers use the same identification data to obtain access to the secured resources of all organisations in the group. Identity federation offers economic advantages, as well as convenience, to organisations and their users. For example, multiple institutions can share a single community application, with resultant cost savings and consolidation of resources. In order for FIM to be effective, the partners must have a sense of mutual trust."\cite{FIM4Rv1:2012}\footnote{For any particular organisation the term ``resources" may refer to any combination of data, compute services, and research instruments.} 
 
 Many research fields are facing the challenge of a deluge of scientific data that needs to be accessed by expanding user bases in dynamic collaborations that cross organisational and national boundaries. Driven by these needs, representatives from a variety of communities, including photon/neutron facilities, social science \& humanities, high-energy physics, atmospheric science, bioinformatics and fusion energy, came together in 2012 to publish a set of joint requirements. A common vision for FIM across these communities was presented as well as the key stages of a roadmap and a set of recommendations intended to ensure its implementation. 
 
@@ -77,12 +82,12 @@ FIM4R\cite{fim4rweb} (Federated Identity Management for Research) is a collectio
 The FIM4R authors envisage this paper to be influential in guiding the development of Federated Identity Management technology and policy in the coming years. It is hoped that the paper will be read widely, by funding agencies, technology providers, policy makers and other stakeholders, and that future progress will reflect the requirements and recommendations of the research communities represented here. This work represents the current challenges and status of research communities and effort has been made to be as technology agnostic as possible. The contributors aspire for this content to remain relevant as the protocols and tools continue to evolve. 
 
 \subsection{Structure of the Paper}
-This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\citep*{FIM4Rv1:2012} in 2012, which we’ll refer to as ``FIM4R v1". It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
+This paper begins with an overview of the current landscape of Federated Identity Management and its evolution since the initial FIM4R paper\cite{FIM4Rv1:2012} in 2012, which we’ll refer to as ``FIM4R v1". It then presents statistics describing the number and distribution of participating researchers and computing centres comprising research communities that participated in contributing to this white paper. Next, a curated list of requirements gathered through discussion among research communities is reported together with some analysis of that data. 
 
 Based on this data and its analysis, recommendations are identified, together with those groups best positioned to address each of them, which provide specific guidance for shaping the future of FIM in line with the needs of research communities. An appendix contains a narrative description of each participating research community. These convey the current status of authentication and authorisation in different disciplines and highlight some of their particular challenges. 
 
 \section{The Evolution of Federated Identity Management}
-``Authenticate locally, authorise globally" was the rallying cry of those who originally conceived of what we now call FIM. Its three main aims were to deliver good user experience by extending the reach of campus credentials far beyond where the campus can take them, and simultaneously reduce the number of credentials users need to deal with; to leverage campus credential management practices to produce a dividend for relying parties, who could then focus more of their energy on their services; and, finally, to make federation a global infrastructure so that academic collaboration, itself global, benefits. In a very substantial sense, this has been done. FIM now spans the national R\&E federations from many countries into an aggregated whole known as eduGAIN, operated on a sustained basis by GÉANT, that contains thousands of entities operated by thousands of organisations. 
+``Authenticate locally, authorise globally" was the rallying cry of those who originally conceived of what we now call FIM. Its three main aims were to deliver good user experience by extending the reach of campus credentials far beyond where the campus can take them, and simultaneously reduce the number of credentials users need to deal with; to leverage campus credential management practices to produce a dividend for relying parties, who could then focus more of their energy on their services; and, finally, to make federation a global infrastructure so that academic collaboration, itself global, benefits. In a very substantial sense, this has been done. FIM now spans the national R\&E federations from many countries into an aggregated whole known as eduGAIN\cite{edugain}, operated on a sustained basis by GÉANT, that contains thousands of entities operated by thousands of organisations. 
 
 The ``authorise globally" part has proved rather hard. Access policies are built either by listing individual users or by performing a check on their attributes (or attributes of their credential management practices). The value of FIM per se is constrained by the availability of valuable attributes it conveys. The difficulty in identifying the most valuable attributes and the change management to produce them scales directly with FIM’s reach. With thousands of organisations participating in FIM worldwide, these are considerable ongoing challenges, driving much of FIM’s evolution and the reason for several of the recommendations below. 
 
