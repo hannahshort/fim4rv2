@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.4)  4 JUL 2018 01:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.4)  4 JUL 2018 01:40
 entering extended mode
 **./fim4rv2.tex
 (fim4rv2.tex
@@ -1938,13 +1938,13 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 739.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 739.
-<RequirementsBreakdown.png, id=542, 624.3325pt x 263.98625pt>
+<RequirementsBreakdown.png, id=538, 624.3325pt x 263.98625pt>
 File: RequirementsBreakdown.png Graphic file (type png)
 <use RequirementsBreakdown.png>
 Package pdftex.def Info: RequirementsBreakdown.png  used on input line 755.
 (pdftex.def)             Requested size: 338.58632pt x 143.16675pt.
  [16]
-<RequirementsVoting.png, id=552, 615.29875pt x 375.4025pt>
+<RequirementsVoting.png, id=548, 615.29875pt x 375.4025pt>
 File: RequirementsVoting.png Graphic file (type png)
 <use RequirementsVoting.png>
 Package pdftex.def Info: RequirementsVoting.png  used on input line 770.
@@ -1989,18 +1989,18 @@ Overfull \hbox (7.32079pt too wide) in alignment at lines 258--263
  []
 
 [24]) [25] [26]
-<eo.png, id=672, 636.3775pt x 321.2pt>
+<eo.png, id=670, 636.3775pt x 321.2pt>
 File: eo.png Graphic file (type png)
 <use eo.png>
 Package pdftex.def Info: eo.png  used on input line 950.
 (pdftex.def)             Requested size: 338.58632pt x 170.89194pt.
  [27] [28 <./eo.png>]
-<cta-table.png, id=687, 350.30875pt x 255.95625pt>
+<cta-table.png, id=685, 350.30875pt x 255.95625pt>
 File: cta-table.png Graphic file (type png)
 <use cta-table.png>
 Package pdftex.def Info: cta-table.png  used on input line 988.
 (pdftex.def)             Requested size: 338.58632pt x 247.40631pt.
-<cta-aai.png, id=690, 499.8675pt x 224.84pt>
+<cta-aai.png, id=688, 499.8675pt x 224.84pt>
 File: cta-aai.png Graphic file (type png)
 <use cta-aai.png>
 Package pdftex.def Info: cta-aai.png  used on input line 999.
@@ -2011,12 +2011,12 @@ Underfull \hbox (badness 4266) in paragraph at lines 1128--1128
  []
 
 [34] [35] [36] [37] [38]
-<ska-domain.png, id=754, 630.355pt x 306.14375pt>
+<ska-domain.png, id=752, 630.355pt x 306.14375pt>
 File: ska-domain.png Graphic file (type png)
 <use ska-domain.png>
 Package pdftex.def Info: ska-domain.png  used on input line 1284.
 (pdftex.def)             Requested size: 338.58632pt x 164.4416pt.
-<ska-auth.png, id=755, 489.83pt x 348.30125pt>
+<ska-auth.png, id=753, 489.83pt x 348.30125pt>
 File: ska-auth.png Graphic file (type png)
 <use ska-auth.png>
 Package pdftex.def Info: ska-auth.png  used on input line 1291.
@@ -2059,9 +2059,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fim4rv2.pdf (41 pages, 1997150 bytes).
+Output written on fim4rv2.pdf (41 pages, 1996750 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
+ 848 PDF objects out of 1000 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
  55884 words of extra memory for PDF output out of 61914 (max. 10000000)
 
