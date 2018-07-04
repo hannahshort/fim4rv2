@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: fim4rv2.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: fim4rv2.aux
 The style file: unsrtnat.bst
 Database file #1: fim4r.bib
 Warning--empty journal in FIM4Rv1:2012
@@ -24,45 +22,4 @@ Warning--empty year in madrigal
 Warning--empty year in ls-ref
 Warning--empty year in elixir-aai
 Warning--empty year in ga4gh
-You've used 40 entries,
-            2481 wiz_defined-function locations,
-            718 strings with 11062 characters,
-and the built_in function-call counts, 12036 in all, are:
-= -- 925
-> -- 627
-< -- 3
-+ -- 283
-- -- 200
-* -- 872
-:= -- 1686
-add.period$ -- 130
-call.type$ -- 40
-change.case$ -- 80
-chr.to.int$ -- 37
-cite$ -- 92
-duplicate$ -- 610
-empty$ -- 1279
-format.name$ -- 209
-if$ -- 2665
-int.to.chr$ -- 4
-int.to.str$ -- 41
-missing$ -- 9
-newline$ -- 218
-num.names$ -- 29
-pop$ -- 529
-preamble$ -- 1
-purify$ -- 40
-quote$ -- 0
-skip$ -- 359
-stack$ -- 0
-substring$ -- 150
-swap$ -- 100
-text.length$ -- 2
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 280
-warning$ -- 21
-while$ -- 22
-width$ -- 0
-write$ -- 493
 (There were 21 warnings)
