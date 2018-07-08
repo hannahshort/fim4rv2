@@ -740,6 +740,14 @@ Sustaining critical infrastructure
 
 Figure \ref{fig:breakdown} shows the distribution of work, by type of actor, to implement the entire suite of 40 requirements above. The ``New solution" column indicates the number of requirements whose implementation would require something entirely new to address them, either in whole or in part. Much of the work would fall to research e-Infrastructure operators who operate and integrate proxies within their environment and to research communities operating SPs layered on those e-Infrastructures, reflecting the increased complexity of the current and desired FIM ecosystem. 
 
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{RequirementsBreakdown.png}
+  \caption{Distribution of Requirements}
+  \label{fig:breakdown}
+\end{figure}
+
 Identity provider requirements largely express the need for organisations that are home to researchers to implement established practices that are extremely valuable to research communities. Releasing REFEDS Research \& Scholarship\cite{rns}  (R\&S) attributes, adopting Sirtfi to participate in response to federated security incidents, and contributing logos and other material to improve IdP discovery and other aspects of good user experience would be hugely valuable to research. MFA adoption would also relieve research communities and their proxies from the burden of supplying second factors to their users.
 
 Federations and eduGAIN requirements reflect first of all their role in enabling and encouraging, if not requiring, identity providers to do their part by providing outreach and tools for attribute release, security incident response, and good user experience. It is also critical for there to be widely-understood and reasonable processes to admit research community proxies and multinational research organisations into federation. And there is one other crucial but perhaps subtle observation emerging from these requirements. As the FIM ecosystem evolves, some of its elements become critical to delivering the value of federations to the rest of the ecosystem. This has always been true of the foundational R\&E federations, and more recently eduGAIN. There are now further examples, usually operated on term funding, that need to be sustained. The FIM4R community looks to organisations that have proven themselves able to sustain federation and inter-federation to extend that ability to also sustain critical FIM infrastructure in order to preserve the value of federation for enabling research. 
@@ -750,20 +758,9 @@ Research service provider requirements are a mix of technical ones, that reflect
 
 Software developers, and to a lesser extent, standards bodies, are needed to develop or enhance various FIM capabilities. Discovery, improved access policy management and enforcement, and further non web solutions are notable among these.
 
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[width=0.7\columnwidth]{RequirementsBreakdown.png}
-  \caption{Distribution of Requirements}
-  \label{fig:breakdown}
-\end{figure}
-
 \subsubsection{Relative Importance of the Requirements}
 
 Representatives of research communities present at the February 2018 FIM4R meeting were asked to indicate which of the requirements were of particular importance to them, i.e., not just ``all", as one indicator of breadth of impact that implementation of each requirement might be expected to have. Figure \ref{fig:voting} shows the number of different research communities so indicating, by each requirement. This ``vote" reflects a point in time for those research communities present at that meeting, representing less than half of those taking part in data gathered for this paper.
-
-It is noteworthy that the top two reflect keen interest in research communities having direct representation in federation governance and in release of R\&S attributes by identity providers. One of the next two highest, Sirtfi adoption, likewise reflects how critical identity and federation operations are to research communities. The other, ORCID, reflects increasing uptake of ORCID both as an identifier that researchers are now expected to have and as an identity provider for researchers who may have insufficient, or absent, identity provider support by their home organisation.
-
-Not all preferences counted necessarily reflect the degree of prospective impact. For example, Snctfi garnered only 1 ``vote"; however, the need for Research Community Proxies to be admitted to federation had a strong showing, and Snctfi is likely a key component of addressing that need. Some communities may have chosen to ``vote" only for the one knowing that it depends on the other, effectively getting two votes for one. As another example, although Help Desk, that is now operated by eduGAIN, received only 2 ``votes", that might mean it was generally taken for granted given that eduGAIN is already running a Help Desk. 
 
 \begin{figure}[ht!]
   \centering
@@ -771,6 +768,11 @@ Not all preferences counted necessarily reflect the degree of prospective impact
   \caption{Requirements Voting}
   \label{fig:voting}
 \end{figure}
+
+It is noteworthy that the top two reflect keen interest in research communities having direct representation in federation governance and in release of R\&S attributes by identity providers. One of the next two highest, Sirtfi adoption, likewise reflects how critical identity and federation operations are to research communities. The other, ORCID, reflects increasing uptake of ORCID both as an identifier that researchers are now expected to have and as an identity provider for researchers who may have insufficient, or absent, identity provider support by their home organisation.
+
+Not all preferences counted necessarily reflect the degree of prospective impact. For example, Snctfi garnered only 1 ``vote"; however, the need for Research Community Proxies to be admitted to federation had a strong showing, and Snctfi is likely a key component of addressing that need. Some communities may have chosen to ``vote" only for the one knowing that it depends on the other, effectively getting two votes for one. As another example, although Help Desk, that is now operated by eduGAIN, received only 2 ``votes", that might mean it was generally taken for granted given that eduGAIN is already running a Help Desk. 
+
 
 \section{Recommendations}
 A number of outcomes are necessary to achieve the common vision of federated identity management, based on the requirements gathered above. All depend upon the substantial participation and cooperation of several groups, reflective of the evolved and evolving layers of technologies and services that comprise FIM. Each recommendation is expected to have broad positive impact on the viability and value of FIM for support of research going forward. A summary of which groups are mentioned in connection with each recommendation is provided in the section Mapping of Groups to Recommendations at the end of this section.
@@ -793,7 +795,7 @@ The mutual benefit of exchanging AAI experiences has been felt both by the resea
 Every researcher is entitled to focus on their work and not be impeded by needless obstacles nor required to understand anything about the FIM infrastructure enabling their access to research services. The recommendations in this section highlight well-established practices by home organisations and R\&E federation operators whose widespread adoption would represent a huge boost to usability of federated access mechanisms by users engaged in collaborative research activities. 
 
 \subsubsection{Release Research \& Scholarship attributes}
-Some research communities rely on their underlying proxies to obtain basic user attributes directly from users when users’ home organisations do not supply them. However, the value of federation is maximised when all home organisations participate in the R\&S Entity Category , removing that impediment from downstream operations and from the users. R\&E federations should increase efforts to get all of their identity provider members who employ researchers and scholars to participate in this well-established program.
+Some research communities rely on their underlying proxies to obtain basic user attributes directly from users when users’ home organisations do not supply them. However, the value of federation is maximised when all home organisations participate in the R\&S Entity Category, removing that impediment from downstream operations and from the users. R\&E federations should increase efforts to get all of their identity provider members who employ researchers and scholars to participate in this well-established program.
 
 To help identity providers in the EU address their obligations under the GDPR and so remove a further obstacle to releasing R\&S attributes, research service providers and proxies that directly participate in any R\&E federation and whose users include EU citizens and residents should support the Data Privacy Code of Conduct by implementing its recommendations and asserting a corresponding entity tag in their federation metadata. R\&E federation operators must offer their service provider members a satisfactory means of adding this tag to their entity metadata.
 
