@@ -1060,10 +1060,10 @@ During the design and prototype phase of the HNSciCloud Pre-Procurement project,
 \item There are multiple proxy implementations and service offerings to different communities with no clear understanding of the added value of each, or how sustainable the service offerings are. The commercial cloud services opt for developing/maintaining their own proxy service to ensure long-term sustainability.  
 \item The lack of a real sustainable service makes eduGAIN on-boarding of Commercial Cloud Services very difficult. The problems are several: R\&S bundle use not clear, lack of central automated testing for SPs against IdPs, lack of central point of contact for operational support, lack of structured documentation for SP onboarding and overall service best practices.
 \item Since ECP has largely been declared unsupported, there is no native command-line option. Research services wishing to use command line need to be connected to a complex AAI that follows the AARC blueprint, which is not suitable or feasible for some use cases. Alternatively, a native command line solution should be found.
+\end{itemize}
 
 Further experience with the deployment of FIM in a hybrid cloud model will be gathered by HNSciCloud during the pilot phase through to the end of 2018. 
 
-\end{itemize}
 
 \subsection{Ionospheric and Atmospheric Science}
 The EISCAT Scientific Association (EISCAT) will establish EISCAT\_3D, a system of distributed phased array radars that will enable comprehensive three-dimensional vector observations of the atmosphere and ionosphere above Northern Fenno-Scandinavia. The use of new radar technology, combined with the latest advances within digital signal processing, will achieve ten times higher temporal and spatial resolution than obtained by the present EISCAT radar systems while simultaneously offering, for the first time, continuous measurement capabilities. The flexibility of the EISCAT\_3D system will allow the study of atmospheric phenomena at both large and small scales unobtainable by the present systems.
@@ -1204,7 +1204,7 @@ As described in the CLARINPLUS Deliverable 2.7\cite{vanuyt}, common reasons for 
 
 Thanks to work done in CLARIN-PLUS\cite{Mistuka} statistics are kept about which Identity Providers are not releasing attributes. These are contacted with a polite request to provide the attributes.
 
-The main conclusions from CLARINPLUS Deliverable 2.7 on the attribute release issue are:
+The main conclusions from CLARINPLUS Deliverable 2.7 on the attribute release issue are: 
 The attribute release issue is not as big as it is sometimes pictured (for the service providers in the CLARIN SPF, percentage of IdPs not releasing personal attributes: 10\% for UFAL, 18\% for HZSK, 0\% for Korp / CSC, 11\% for CLARIN.SI).
 
 The problem varies widely among the national federations, with Germany being the most problematic case (7 out of 17 for UFAL, 6 out of 8 for HZSK, 1 out of 3 for CLARIN.SI)
@@ -1277,10 +1277,6 @@ MWA recently deployed a proxy-centric federated identity infrastructure to facil
 \textbf{Design, Prototype and future developments}
 The Square Kilometre Array (SKA) is the largest Radio Telescope ever designed to explore the key  topics in Astrophysics. It consists of arrays of Dishes and Antennas spread over two continents (Australia and South Africa) with the Headquarters located in Europe (Jodrell Bank). The  raw data rate from the antennas are equivalent to or exceeds the global Internet traffic, and the size of the science data products are similar or larger than other top-tier science projects, such as HL-LHC.  Currently The SKA plans to release the science data products to ``Regional Centers" located around the world. Using this approach, the final users will be able to analyze, re-reduce, handle and extract the real scientific results from the observations without knowing where the computations will be made or the data is physically located. The user’s access point will be the SKA Observatory user portal which will support the user throughout the life cycle of their project.  The Authentication and Authorization system must be able to harmonise the access to all of the SKA services, allowing the users  to access transparently the applications for the observation preparation at the SKA HQ all the way through to preparing the computing resources, services, tools and support at the regional centers where the data is analysed. The SKA requires  the authentication system should be flexible, standards-based and allow identities to be  ``joined" to other external accounts. The Authorization system must allow the SKA to dynamically create and update groups of users, and organise them  hierarchically  (groups of groups). This fine granularity in Authorization is specific to the Astrophysics, where the change of group membership and the different privileges assigned to specific members of the same group are required. 
 
-An evolutionary prototype for the Authentication and Authorization system covering several aspects of the user interaction has been implemented. It includes authenticated users using external identities, both for visualization and access to SKA resources as well as for deep computation and management of the cloud infrastructures. 
-
-The basic idea is to provide the users with the major authentication mechanisms (federation prone protocols like SAML or OAuth2, certificates, Kerberos tickets etc) at their choice. The join mechanism allow the users to be recognised by the system with more than one set of credentials. At the same time each new joined identity will be linked to one internal id recognised by the Authorization tool Identity database. In this way, the user that performed the join of identities could indifferently access the system and will be associated every time with the same set of groups. Outside the SKA Observatory the account linking could be seen as a limitation, but in reality it is not. Currently are under development studies to improve a de facto standard used by some data centers (CADC) and based on some Virtual Observatory notes. It is based on the principle of Credential Delegation Protocol that should intervene between trusted data centers. The mechanism for the authorisation interoperability could be summarised as depicted in Figure \ref{fig:ska-auth}.
-
 \begin{figure}[ht!]
   \centering
   \includegraphics[width=0.7\columnwidth]{ska-domain.png}
@@ -1288,12 +1284,17 @@ The basic idea is to provide the users with the major authentication mechanisms 
   \label{fig:ska-domain}
 \end{figure}
 
+
+An evolutionary prototype for the Authentication and Authorization system covering several aspects of the user interaction has been implemented. It includes authenticated users using external identities, both for visualization and access to SKA resources as well as for deep computation and management of the cloud infrastructures. 
+
 \begin{figure}[ht!]
   \centering
   \includegraphics[width=0.7\columnwidth]{ska-auth.png}
   \caption{Mechanism for the authorisation interoperability}
   \label{fig:ska-auth}
 \end{figure}
+
+The basic idea is to provide the users with the major authentication mechanisms (federation prone protocols like SAML or OAuth2, certificates, Kerberos tickets etc) at their choice. The join mechanism allow the users to be recognised by the system with more than one set of credentials. At the same time each new joined identity will be linked to one internal id recognised by the Authorization tool Identity database. In this way, the user that performed the join of identities could indifferently access the system and will be associated every time with the same set of groups. Outside the SKA Observatory the account linking could be seen as a limitation, but in reality it is not. Currently are under development studies to improve a de facto standard used by some data centers (CADC) and based on some Virtual Observatory notes. It is based on the principle of Credential Delegation Protocol that should intervene between trusted data centers. The mechanism for the authorisation interoperability could be summarised as depicted in Figure \ref{fig:ska-auth}.
 
 The authorisation sharing of information is protected via a trusted connection between the data centers. The strategy currently adopted for the trusted connection is to use the credential delegation protocol (a proxy certificate encapsulating a user certificate). A good choice could be to include more than one solution, so for example include also the Kerberos tickets and the exchange of private-public keys or a JSON array with the user attributes. The AAA system is suited with web based interfaces in order to allow registration and management of user credentials as well as administrative interfaces for supporting the activities of attributes maintenance and updates. The grouping management system can be reached both via REST calls and user interfaces in order to delegate as much as possible (and compatible with the SKA policy) the management of groups membership to the user that creates the group. A working and open instance could be found at https://sso.ia2.inaf.it.
 
@@ -1304,10 +1305,10 @@ The political framework relies on rules of collaboration and organisation that a
  
 The VAMDC Consortium technical framework relies on the use of the e-science VAMDC infrastructure that provides the international research community with access to a broad range of atomic and molecular (A\&M) data.
  
-\textbf{Technical overview}
+\subsubsection{Technical overview}
 The e-Infrastructure federates \~41 heterogeneous atomic and molecular databases in an interoperable way: VAMDC provides a middleware, called Node Software, for transforming an autonomous database into a VAMDC node. Each node understands queries submitted with a given standard grammar\cite{vamdc-standards} and provides result formatted using the XSAMS standard (XML schema for Atoms, Molecules and Solids\cite{vamdc-ref}.  Each VAMDC node is registered into registries (a sort of yellow-pages of all the available services). When a user submit a query to VAMDC, this is dispatched to all the available services and the gathered result returned to the user. VAMDC is a distributed setting, with single point of access available\cite{vamdc-home} but no central management of the data or the infrastructure.
  
-\textbf{Needs and requirement for Authentication, Authorisation and Accounting}
+\subsubsection{Needs and requirement for Authentication, Authorisation and Accounting}
 Atomic and Molecular data are crucial for several civilian and scientific uses. But they are also crucial for military purpose. As a consequence, some data may not be shared publicly with the community and their access may be open only possible for a selected set of users. For other categories of data, less confidential but potentially useful for military applications, VAMDC would like to track the origin and identity of the users.
 
 An Authorisation, Authentication and Accounting strategy is very important for the VAMDC infrastructure.  Moreover, this is asked by our institute for measuring the impact of the VAMDC activity. The AAA strategy is fully discussed in the VAMDC RoadMap.  The main elements to retain are the following:
